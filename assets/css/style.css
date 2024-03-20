@@ -182,7 +182,7 @@ p{
 h1,h2,h3,h4,h5,h6{
   position:relative;
   font-family: 'Oswald', sans-serif;
-  color: green;
+  color: white;
   font-weight: 400;
   margin: 0px;
   transition: all 500ms ease;
