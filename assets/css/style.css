@@ -70,10 +70,10 @@
 
 body {
   font-size:12px;
-  color:#999999;
+  color:white;
   line-height:22px;
   font-weight:400;
-  background:#272727;
+  background:white;
   font-family: 'Poppins', sans-serif;
   background-size:cover;
   background-repeat:no-repeat;
@@ -210,7 +210,7 @@ h1,h2,h3,h4,h5,h6{
   position: fixed;
   z-index: 99999999;
   font-size: 26px;
-  background: #fff;
+  background: black;
   width: 40px;
   height: 40px;
   line-height: 36px;
@@ -271,7 +271,7 @@ h1,h2,h3,h4,h5,h6{
 .handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(8):before { animation-delay: 1.4s;}
 .handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(9):before { animation-delay: 1.6s;}
 .handle-preloader .loader-section {
-  background-color: #ffffff;
+  background-color: blackfff;
   height: 100%;
   position: fixed;
   top: 0;
@@ -288,11 +288,11 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .handle-preloader .animation-preloader .txt-loading .letters-loading:before{
-  color: #ffffff;
+  color: blackfff;
 }
 
 .handle-preloader .animation-preloader .spinner{
-  border: 3px solid #ffffff;
+  border: 3px solid blackfff;
   border-top-color: rgba(255, 255, 255, 0.5); 
 }
 
@@ -371,7 +371,7 @@ img {
   line-height: 30px;
   font-weight: 400;
   font-family: 'Oswald', sans-serif;
-  color: #fff !important;
+  color: black !important;
   text-align: center;
   padding: 16px 65px;
   text-transform: capitalize;
@@ -392,7 +392,7 @@ img {
   content: '';
   width: 0%;
   height: 100%;
-  background: #fff;
+  background: black;
   left: 0px;
   top: 0px;
   z-index: -1;
@@ -600,7 +600,7 @@ img {
   top:0px;
   width:100%;
   z-index:0;
-  background-color: #272727;
+  background-color: white;
   border-bottom: 1px solid rgba(255, 255, 255, 0.10);
   transition:all 500ms ease;
   -moz-transition:all 500ms ease;
@@ -642,7 +642,7 @@ img {
   position: relative;
   width: 100%;
   padding: 36px 192px 0px 125px;
-  background: #323232;
+  background: white;
 }
 
 .header-lower .shape{
@@ -697,7 +697,7 @@ img {
 .main-header .menu-area:before{
   position: absolute;
   content: '';
-  background: #272727;
+  background: white;
   width: 6000px;
   height: calc(100% + 36px);
   left: -32px;
@@ -717,7 +717,7 @@ img {
   display: inline-block;
   font-size: 20px;
   line-height: 30px;
-  color: #fff;
+  color: black;
   cursor: pointer;
   margin-right: 50px;
   transition: all 500ms ease;
@@ -732,7 +732,7 @@ img {
   display: inline-block;
   font-size: 40px;
   line-height: 30px;
-  color: #fff;
+  color: black;
   cursor: pointer;
   top: -5px;
   transition: all 500ms ease;
@@ -829,8 +829,8 @@ img {
   height: 40px;
   line-height: 40px;
   text-align: center;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid black;
+  color: black;
   border-radius: 50%;
   font-weight: 400;
   font-size: 20px;
@@ -1015,7 +1015,7 @@ img {
 .search-popup .close-search {
   position: relative;
   font-size: 22px;
-  color: #fff;
+  color: black;
   cursor: pointer;
   z-index: 5;
   top: 11px;
@@ -1041,9 +1041,9 @@ img {
   position: relative;
   height: 90px;
   padding: 20px 0px;
-  background: #ffffff;
+  background: blackfff;
   border-radius: 0px;
-  border: 3px solid #fff;
+  border: 3px solid black;
   line-height: 30px;
   font-size: 20px;
   color: #222;
@@ -1113,7 +1113,7 @@ img {
   font-weight: 400;
   font-family: 'Oswald', sans-serif;
   opacity:1;
-  color: #fff;
+  color: black;
   text-transform: uppercase;
   z-index:1;
   letter-spacing: 0.2em;
@@ -1189,7 +1189,7 @@ img {
   font-size:14px;
   text-transform:capitalize;
   font-family: 'Oswald', sans-serif;
-  color:#fff;
+  color:black;
   text-align: left;
   letter-spacing: 1px;
   transition:all 500ms ease;
@@ -1211,7 +1211,7 @@ img {
   display: block;
   font-size: 20px;
   line-height: 30px;
-  color: #ffffff;
+  color: blackfff;
 }
 
 .main-menu .navigation > li > ul > li > a:hover,
@@ -1278,7 +1278,7 @@ img {
   font-size:14px;
   text-transform:capitalize;
   font-family: 'Oswald', sans-serif;
-  color:#fff;
+  color:black;
   border-bottom: 1px solid rgba(255,255,255,0.1);
   text-align: left;
   letter-spacing: 1px;
@@ -1366,7 +1366,7 @@ img {
   width: 30px;
   display: block;
   margin-bottom: 5px;
-  background-color: #fff;
+  background-color: black;
   -webkit-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
   -ms-transition: all 300ms ease;
@@ -1537,7 +1537,7 @@ img {
   width: 24px;
   text-align: center;
   font-size: 16px;
-  color: #ffffff;
+  color: blackfff;
   cursor: pointer;
   z-index: 10;
   -webkit-transition:all 0.9s ease;
@@ -1587,7 +1587,7 @@ img {
   padding: 10px 25px;
   font-size: 15px;
   font-weight: 500;
-  color: #ffffff;
+  color: blackfff;
   text-transform: uppercase;
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
@@ -1608,7 +1608,7 @@ img {
   left:0;
   top:0;
   height:0;
-  border-left:5px solid #fff;
+  border-left:5px solid black;
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
@@ -1629,7 +1629,7 @@ img {
   text-align:center;
   font-size:16px;
   line-height:32px;
-  color:#ffffff;
+  color:blackfff;
   background:rgba(255,255,255,0.10);
   cursor:pointer;
   border-radius:2px;
@@ -1642,7 +1642,7 @@ img {
 }
 
 .mobile-menu .navigation li.dropdown .dropdown-btn.open{
-  color: #ffffff;
+  color: blackfff;
   -webkit-transform:rotate(90deg);
   -ms-transform:rotate(90deg);
   transform:rotate(90deg);  
@@ -1669,7 +1669,7 @@ img {
   position:relative;
   line-height:32px;
   font-size:16px;
-  color:#ffffff;
+  color:blackfff;
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
@@ -1693,7 +1693,7 @@ div#mCSB_1_container{
 .mobile-menu .contact-info h4 {
   position: relative;
   font-size: 20px;
-  color: #ffffff;
+  color: blackfff;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -1730,7 +1730,7 @@ div#mCSB_1_container{
   overflow: hidden;
   padding-left: 125px;
   padding-bottom: 125px;
-  background: #323232;
+  background: white;
   border-bottom: 1px solid #333333;
 }
 
@@ -1746,7 +1746,7 @@ div#mCSB_1_container{
 .banner-carousel .slide-item:before{
   position: absolute;
   content: '';
-  background: #000;
+  background: white;
   width: 100%;
   height: 100%;
   left: 0px;
@@ -1795,7 +1795,7 @@ div#mCSB_1_container{
   height: 112px;
   line-height: 112px;
   text-align: center;
-  background: rgb(39 39 39 / 40%);
+  background: white;
   border-radius: 50%;
   margin-bottom: 40px;
   opacity: 0;
@@ -1960,7 +1960,7 @@ div#mCSB_1_container{
   font-size: 15px;
   line-height: 25px;
   font-weight: 700;
-  color: #fff;
+  color: white;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
 }
@@ -1968,7 +1968,7 @@ div#mCSB_1_container{
 .banner-section .banner-thumb-inner .single-item p{
   font-size: 15px;
   line-height: 25px;
-  color: #fff;
+  color: white;
 }
 
 .owl-dots-none .owl-dots,
@@ -1986,7 +1986,7 @@ div#mCSB_1_container{
 .banner-section .banner-thumb-inner:before {
   position: absolute;
   content: '';
-  background: #272727;
+  background: #CA282E;
   width: 6000px;
   height: calc(100% + 36px);
   left: -88px;
@@ -2096,7 +2096,7 @@ div#mCSB_1_container{
 }
 
 .about-section .image-box .text-inner p{
-  color: #fff;
+  color: black;
 }
 
 .about-section .content-box{
@@ -2320,7 +2320,7 @@ div#mCSB_1_container{
 }
 
 .overlay-anim-white-bg:after{
-  background: #fff;
+  background: black;
 }
 
 .overlay-anim-black-bg.overlay-animation:after,
@@ -2359,7 +2359,7 @@ div#mCSB_1_container{
   text-indent: 0;
   border: none;
   mix-blend-mode: difference;
-  background-color: #fff;
+  background-color: black;
   -webkit-box-shadow: 0 0 0 transparent;
   -ms-box-shadow: 0 0 0 transparent;
   box-shadow: 0 0 0 transparent;
@@ -2410,7 +2410,7 @@ body.out .mouse-pointer {
   display: block;
   font-size: 20px;
   line-height: 30px;
-  color: #fff;
+  color: black;
 }
 
 
@@ -2473,7 +2473,7 @@ body.out .mouse-pointer {
   position: absolute;
   left: 0px;
   top: 5px;
-  color: #fff;
+  color: black;
 }
 
 .video-section .inner-box .content-box .video-btn a{
@@ -2651,7 +2651,7 @@ body.out .mouse-pointer {
 
 .project-block-one .inner-box .content-box h2 a{
   display: inline-block;
-  color: #fff;
+  color: black;
 }
 
 .project-block-one .inner-box .content-box h2 a:hover{
@@ -2691,7 +2691,7 @@ body.out .mouse-pointer {
 
 .project-block-one .inner-box .content-box .link a{
   font-size: 30px;
-  color: #fff;
+  color: black;
 }
 
 .project-section .owl-nav{
@@ -2708,7 +2708,7 @@ body.out .mouse-pointer {
   height: 60px;
   line-height: 60px;
   font-size: 40px;
-  color: #fff;
+  color: black;
   text-align: center;
   border-radius: 50%;
   cursor: pointer;
@@ -2823,7 +2823,7 @@ body.out .mouse-pointer {
 
 .news-block-one .inner-box h3 a{
   display: inline-block;
-  color: #fff;
+  color: black;
 }
 
 .news-block-one .inner-box h3 a:hover{
@@ -2924,7 +2924,7 @@ body.out .mouse-pointer {
   line-height: 70px;
   text-align: center;
   font-size: 24px;
-  color: #fff;
+  color: black;
   border-radius: 50%;
 }
 
@@ -2999,7 +2999,7 @@ body.out .mouse-pointer {
   font-size: 20px;
   line-height: 30px;
   font-family: 'Oswald', sans-serif;
-  color: #fff;
+  color: black;
   margin-bottom: 25px;
   padding: 4px 0px 6px 57px;
 }
@@ -3016,7 +3016,7 @@ body.out .mouse-pointer {
   height: 40px;
   line-height: 40px;
   font-size: 20px;
-  color: #fff;
+  color: black;
   background: #FD1A5A;
   text-align: center;
   border-radius: 50%;
@@ -3035,7 +3035,7 @@ body.out .mouse-pointer {
 }
 
 .main-footer .contact-widget .info-list li a{
-  color: #fff;
+  color: black;
 }
 
 .main-footer .contact-widget .info-list li a:hover{
@@ -3070,7 +3070,7 @@ body.out .mouse-pointer {
   font-size: 20px;
   line-height: 30px;
   font-family: 'Oswald', sans-serif;
-  color: #fff;
+  color: black;
   padding: 16px 40px;
   cursor: pointer;
   transition: all 500ms ease;
@@ -3127,7 +3127,7 @@ body.out .mouse-pointer {
 }
 
 .footer-bottom .copyright h4 a{
-  color: #fff;
+  color: black;
 }
 
 .footer-bottom .copyright h4 a:hover{
@@ -3237,7 +3237,7 @@ body.out .mouse-pointer {
   font-size: 50px;
   line-height: 60px;
   font-weight: 500;
-  color: #fff;
+  color: black;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
@@ -3252,7 +3252,7 @@ body.out .mouse-pointer {
   float: left;
   font-size: 20px;
   line-height: 30px;
-  color: #fff;
+  color: black;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
@@ -3289,8 +3289,8 @@ body.out .mouse-pointer {
   height: 40px;
   line-height: 40px;
   font-size: 30px;
-  color: #fff;
-  border: 2px solid #fff;
+  color: black;
+  border: 2px solid black;
   border-radius: 50%;
   text-align: center;
   cursor: pointer;
@@ -3334,7 +3334,7 @@ body.out .mouse-pointer {
   display: block;
   font-size: 15px;
   line-height: 25px;
-  color: #fff;
+  color: black;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.02em;
@@ -3342,7 +3342,7 @@ body.out .mouse-pointer {
 }
 
 .banner-style-two .image-inner .text p{
-  color: #fff;
+  color: black;
 }
 
 .banner-style-two .shape{
@@ -3599,7 +3599,7 @@ body.out .mouse-pointer {
 }
 
 .project-block-two .inner-box .text p{
-  color: #fff;
+  color: black;
 }
 
 .project-style-two .owl-nav{
@@ -3616,8 +3616,8 @@ body.out .mouse-pointer {
   height: 40px;
   line-height: 40px;
   font-size: 30px;
-  color: #fff;
-  border: 2px solid #fff;
+  color: black;
+  border: 2px solid black;
   border-radius: 50%;
   text-align: center;
   cursor: pointer;
@@ -3782,8 +3782,8 @@ body.out .mouse-pointer {
 }
 
 .video-section.alternat-2 .inner-box .content-box .video-btn a{
-  border-color: #fff;
-  color: #fff;
+  border-color: black;
+  color: black;
 }
 
 .video-section.alternat-2 .inner-box .content-box .video-btn a:before, 
@@ -3909,7 +3909,7 @@ body.out .mouse-pointer {
 
 .team-block-one .inner-box .content-box h4 a{
   display: inline-block;
-  color: #fff;
+  color: black;
 }
 
 .team-block-one .inner-box .content-box h4 a:hover{
@@ -4046,7 +4046,7 @@ body.out .mouse-pointer {
 
 .news-block-two .inner-box h3 a{
   display: inline-block;
-  color: #fff;
+  color: black;
 }
 
 .news-block-two .inner-box h3 a:hover{
@@ -4120,7 +4120,7 @@ body.out .mouse-pointer {
   font-size: 15px;
   line-height: 45px;
   font-family: 'Oswald', sans-serif;
-  color: #fff;
+  color: black;
   text-transform: uppercase;
   letter-spacing: 0.2em;
 }
@@ -4160,12 +4160,12 @@ body.out .mouse-pointer {
   position: relative;
   font-size: 20px;
   line-height: 30px;
-  color: #fff;
+  color: black;
   font-weight: 400;
 }
 
 .main-footer.style-two .contact-widget .copyright a{
-  color: #fff;
+  color: black;
 }
 
 .main-footer.style-two .contact-widget .copyright a:hover{
@@ -4307,11 +4307,11 @@ body.out .mouse-pointer {
   display: block;
   font-size: 20px;
   line-height: 30px;
-  color: #fff;
+  color: black;
 }
 
 .main-content-outerbox .mobile-menu .copyright h4 a{
-  color: #fff;
+  color: black;
 }
 
 .main-content-outerbox .mobile-menu .copyright h4 a:hover{
@@ -4333,7 +4333,7 @@ body.out .mouse-pointer {
 
 .banner-style-three h2 span{
   display: block;
-  color: #fff !important;
+  color: black !important;
 }
 
 .banner-style-three .banner-carousel .slide-item {
@@ -4352,13 +4352,13 @@ body.out .mouse-pointer {
   display: inline-block;
   font-size: 20px;
   line-height: 30px;
-  color: #fff;
+  color: black;
   padding-left: 57px;
 }
 
 .banner-style-three .support-box h4 a{
   display: inline-block;
-  color: #fff;
+  color: black;
 }
 
 .banner-style-three .support-box h4 a:hover{
@@ -4374,7 +4374,7 @@ body.out .mouse-pointer {
   line-height: 40px;
   text-align: center;
   font-size: 16px;
-  color: #fff;
+  color: black;
   background: #FD1A5A;
   border-radius: 50%;
 }
@@ -4433,7 +4433,7 @@ body.out .mouse-pointer {
   display: block;
   font-size: 20px;
   line-height: 30px;
-  color: #fff;
+  color: black;
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -4446,7 +4446,7 @@ body.out .mouse-pointer {
 }
 
 .banner-style-three .banner-thumb-inner .owl-item.current .single-item p{
-  color: #fff;
+  color: black;
 }
 
 .banner-style-three .banner-carousel .owl-nav{
@@ -4467,7 +4467,7 @@ body.out .mouse-pointer {
   border-radius: 50%;
   border: none;
   font-size: 30px;
-  color: #fff;
+  color: black;
 }
 
 .banner-style-three .banner-carousel .owl-nav button:hover{
@@ -4488,7 +4488,7 @@ body.out .mouse-pointer {
   font-weight: 500;
   font-size: 50px;
   line-height: 60px;
-  color: #fff;
+  color: black;
   text-transform: capitalize;
   margin-bottom: 13px;
 }
@@ -4615,7 +4615,7 @@ body.out .mouse-pointer {
   display: block;
   font-size: 20px;
   line-height: 30px;
-  color: #fff;
+  color: black;
   margin-bottom: 0px;
 }
 
@@ -4658,7 +4658,7 @@ body.out .mouse-pointer {
   font-size: 55px;
   line-height: 65px;
   font-weight: 500;
-  color: #fff;
+  color: black;
 }
 
 .main-footer.style-three .footer-top h2 span{
@@ -4735,7 +4735,7 @@ body.out .mouse-pointer {
   top: 50%;
   transform: translate(-50%,-50%) scale(0,0);
   font-size: 20px;
-  color: #fff;
+  color: black;
 }
 
 .main-footer.style-three .gallery-widget .image-list li .image:hover a{
@@ -4805,7 +4805,7 @@ body.out .mouse-pointer {
   display: block;
   font-size: 60px;
   line-height: 70px;
-  color: #fff;
+  color: black;
   letter-spacing: 0.2em;
 }
 
@@ -5171,7 +5171,7 @@ body.out .mouse-pointer {
   position: absolute;
   top: 8px;
   right: 20px;
-  color: #fff;
+  color: black;
   font-size: 30px;
 }
 
@@ -5196,7 +5196,7 @@ body.out .mouse-pointer {
   display: inline-block;
   font-size: 30px;
   line-height: 72px;
-  color: #fff;
+  color: black;
   margin-bottom: 27px;
 }
 
@@ -5232,7 +5232,7 @@ body.out .mouse-pointer {
   font-size: 20px;
   line-height: 30px;
   font-family: 'Oswald', sans-serif;
-  color: #fff;
+  color: black;
   cursor: pointer;
   margin: 0px 20px;
   transition: all 500ms ease;
@@ -5357,7 +5357,7 @@ body.out .mouse-pointer {
   line-height: 30px;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
-  color: #fff;
+  color: black;
   margin: 0px 15px;
   cursor: pointer;
   transition: all 500ms ease;
@@ -5440,7 +5440,7 @@ body.out .mouse-pointer {
   display: block;
   font-size: 45px;
   line-height: 55px;
-  color: #fff;
+  color: black;
   margin-bottom: 7px;
 }
 
@@ -5467,7 +5467,7 @@ body.out .mouse-pointer {
   position: relative;
   display: inline-block;
   font-size: 20px;
-  color: #fff;
+  color: black;
 }
 
 .team-details .inner-box .content-box .social-links li a:hover{
@@ -5499,7 +5499,7 @@ body.out .mouse-pointer {
   width: 265px;
   font-size: 12px;
   line-height: 22px;
-  color: #fff;
+  color: black;
   margin-bottom: 20px;
 }
 
@@ -5510,7 +5510,7 @@ body.out .mouse-pointer {
 .team-details .inner-box .content-box .info-list li a{
   position: relative;
   display: inline-block;
-  color: #fff;
+  color: black;
 }
 
 .team-details .inner-box .content-box .info-list li span{
@@ -5598,7 +5598,7 @@ body.out .mouse-pointer {
   font-size: 55px;
   line-height: 65px;
   font-weight: 500;
-  color: #fff;
+  color: black;
   font-family: 'Oswald', sans-serif;
   text-align: center;
   margin-bottom: 0px;
@@ -5608,7 +5608,7 @@ body.out .mouse-pointer {
   position: relative;
   font-size: 30px;
   line-height: 40px;
-  color: #fff;
+  color: black;
   font-weight: 400;
   font-family: 'Oswald', sans-serif;
   text-transform: capitalize;
@@ -5762,7 +5762,7 @@ body.out .mouse-pointer {
 }
 
 .error-section .inner-box .form-inner .form-group input:focus{
-  border-color: #fff;
+  border-color: black;
 }
 
 .error-section .inner-box .form-inner .form-group input:focus + button,
@@ -5935,7 +5935,7 @@ body.out .mouse-pointer {
   display: inline-block;
   font-size: 10px;
   line-height: 22px;
-  color: #fff;
+  color: black;
   margin-left: 15px;
 }
 
@@ -6117,7 +6117,7 @@ body.out .mouse-pointer {
   position: absolute;
   top: 8px;
   right: 20px;
-  color: #fff;
+  color: black;
   font-size: 30px;
 }
 
@@ -6150,7 +6150,7 @@ body.out .mouse-pointer {
   display: inline-block;
   font-size: 12px;
   line-height: 22px;
-  color: #fff;
+  color: black;
   background: #999999;
   padding: 10px 30px;
   text-align: center;
@@ -6224,7 +6224,7 @@ body.out .mouse-pointer {
   font-size: 20px;
   line-height: 30px;
   font-family: 'Oswald', sans-serif;
-  color: #fff;
+  color: black;
   margin-bottom: 25px;
   padding: 4px 0px 6px 57px;
 }
@@ -6241,7 +6241,7 @@ body.out .mouse-pointer {
   height: 40px;
   line-height: 40px;
   font-size: 20px;
-  color: #fff;
+  color: black;
   background: #FD1A5A;
   text-align: center;
   border-radius: 50%;
@@ -6260,7 +6260,7 @@ body.out .mouse-pointer {
 }
 
 .contact-page-section .content-box .info-list li a{
-  color: #fff;
+  color: black;
 }
 
 .contact-page-section .content-box .info-list li a:hover{
