@@ -2402,7 +2402,7 @@ body.out .mouse-pointer {
 
 .service-block-one .inner-box .icon-box{
   position: relative;
-  min-height: 87px;
+  min-height: 120px;
   margin-bottom: 13px;
 }
 
@@ -4420,7 +4420,7 @@ body.out .mouse-pointer {
 .banner-style-three .banner-thumb-inner .single-item .icon-box{
   position: relative;
   display: inline-block;
-  min-height: 87px;
+  min-height: 120px;
   margin-bottom: 13px;
 }
 
@@ -5013,7 +5013,7 @@ body.out .mouse-pointer {
 }
 
 .service-style-two .service-block-one .inner-box .icon-box{
-  min-height: 95px;
+  min-height: 120px;
   margin-bottom: 5px;
   transition: all 500ms ease;
 }
