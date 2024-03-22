@@ -173,7 +173,7 @@ textarea:focus{
 p{
   position: relative;
   font-family: 'Poppins', sans-serif;
-  color: #677289;
+  color: #fff;
   font-weight: 400;
   margin: 0px;
   transition: all 500ms ease;
@@ -199,7 +199,7 @@ h1,h2,h3,h4,h5,h6{
   justify-content: center;
   -webkit-justify-content: center;
   position: fixed;
-  background: #272727;
+  background: #fff;
   left: 0;
   top: 0;
   width: 100%;
@@ -1953,6 +1953,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 12px;
   line-height: 22px;
+  color: white;
 }
 
 .banner-section .banner-thumb-inner .single-item h6{
@@ -2096,7 +2097,7 @@ div#mCSB_1_container{
 }
 
 .about-section .image-box .text-inner p{
-  color: black;
+  color: white;
 }
 
 .about-section .content-box{
@@ -2919,6 +2920,7 @@ body.out .mouse-pointer {
 .main-footer .sec-title a{
   position: relative;
   display: inline-block;
+  font-weight:bolder;
   width: 66px;
   height: 66px;
   line-height: 70px;
@@ -2930,6 +2932,7 @@ body.out .mouse-pointer {
 
 .main-footer .sec-title a:hover{
   background: #CA282E;
+  color: #000;
 }
 
 .main-footer .sec-title h2{
