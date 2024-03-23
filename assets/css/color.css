@@ -69,7 +69,7 @@
 }
 
 .about-section .content-box .author-box .inner .designation span{
-  color: #545454;
+  color: #fff;
 }
 
 .banner-section .banner-thumb-inner .active.current .single-item:before{
@@ -211,7 +211,7 @@
 }
 
 .testimonial-block-one .inner-box .author-box .designation{
-  color: #545454;
+  color: #fff;
 }
 
 .team-block-one .inner-box .image-box .social-links li a:hover{
@@ -227,7 +227,7 @@
 }
 
 .team-block-one .inner-box .content-box .designation{
-  color: #545454;
+  color: #fff;
 }
 
 .team-section .owl-theme .owl-dots .owl-dot.active span,
@@ -285,7 +285,7 @@
 }
 
 .video-section .testimonial-content .author-box .designation{
-  color: #545454;
+  color: #fff;
 }
 
 .main-footer.style-three .footer-top h2 span{
@@ -309,7 +309,7 @@
 }
 
 .testimonial-block-two .inner-box .author-box .designation{
-  color: #545454;
+  color: #fff;
 }
 
 .testimonial-block-two .inner-box:before{
