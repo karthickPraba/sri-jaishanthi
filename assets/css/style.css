@@ -190,6 +190,8 @@ h1,h2,h3,h4,h5,h6{
 
 /* Preloader */
 
+/* Preloader */
+
 .handle-preloader {
   align-items: center;
   -webkit-align-items: center;
@@ -199,7 +201,7 @@ h1,h2,h3,h4,h5,h6{
   justify-content: center;
   -webkit-justify-content: center;
   position: fixed;
-  background: #fff;
+  background: #272727;
   left: 0;
   top: 0;
   width: 100%;
@@ -210,7 +212,7 @@ h1,h2,h3,h4,h5,h6{
   position: fixed;
   z-index: 99999999;
   font-size: 26px;
-  background: black;
+  background: #fff;
   width: 40px;
   height: 40px;
   line-height: 36px;
@@ -271,7 +273,7 @@ h1,h2,h3,h4,h5,h6{
 .handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(8):before { animation-delay: 1.4s;}
 .handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(9):before { animation-delay: 1.6s;}
 .handle-preloader .loader-section {
-  background-color: blackfff;
+  background-color: #ffffff;
   height: 100%;
   position: fixed;
   top: 0;
@@ -288,11 +290,11 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .handle-preloader .animation-preloader .txt-loading .letters-loading:before{
-  color: blackfff;
+  color: #ffffff;
 }
 
 .handle-preloader .animation-preloader .spinner{
-  border: 3px solid blackfff;
+  border: 3px solid #ffffff;
   border-top-color: rgba(255, 255, 255, 0.5); 
 }
 
