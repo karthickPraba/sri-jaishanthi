@@ -1669,7 +1669,7 @@ img {
   position:relative;
   line-height:32px;
   font-size:16px;
-  color:blackfff;
+  color:black;
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
@@ -2010,7 +2010,7 @@ div#mCSB_1_container{
 .banner-section .social-links:before{
   position: absolute;
   content: '';
-  background: rgba(255, 255, 255, 0.50);
+  background: black;
   width: 1px;
   height: 82px;
   left: 12px;
@@ -2031,7 +2031,7 @@ div#mCSB_1_container{
   position: relative;
   display: inline-block;
   font-size: 24px;
-  color: rgba(255, 255, 255, 0.50);
+  color: black;
 }
 
 .banner-section .social-links li a:hover{
