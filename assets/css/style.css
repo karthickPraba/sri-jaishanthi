@@ -371,7 +371,7 @@ img {
   line-height: 30px;
   font-weight: 400;
   font-family: 'Oswald', sans-serif;
-  color: black !important;
+  color: white !important;
   text-align: center;
   padding: 16px 65px;
   text-transform: capitalize;
@@ -392,7 +392,7 @@ img {
   content: '';
   width: 0%;
   height: 100%;
-  background: black;
+  background: white;
   left: 0px;
   top: 0px;
   z-index: -1;
@@ -5665,7 +5665,7 @@ body.out .mouse-pointer {
 }
 
 .comingsoon-section .inner-box .btn-box .theme-btn{
-  background: #272727;
+  background: #fff;
 }
 
 
