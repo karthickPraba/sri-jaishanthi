@@ -2085,7 +2085,7 @@ div#mCSB_1_container{
   bottom: -30px;
   width: 207px;
   padding: 15px 30px 16px 33px;
-  background: #323232;
+  background: #E6E6E6;
   border-radius: 5px;
 }
 
@@ -2122,7 +2122,7 @@ div#mCSB_1_container{
 }
 
 .about-section .content-box .author-box{
-  background: #323232;
+  background: #E6E6E6;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
   padding: 34px 50px 33px 49px;
@@ -2384,7 +2384,7 @@ body.out .mouse-pointer {
 .service-block-one .inner-box{
   position: relative;
   display: block;
-  border: 1px solid #323232;
+  border: 1px solid #E6E6E6;
   padding: 52px 30px 46px 30px;
 }
 
@@ -2780,7 +2780,7 @@ body.out .mouse-pointer {
 .news-block-one .inner-box{
   position: relative;
   display: block;
-  border: 1px solid #323232;
+  border: 1px solid #E6E6E6;
   padding: 41px 30px 47px 30px;
 }
 
@@ -2853,7 +2853,7 @@ body.out .mouse-pointer {
   transform: scaleX(0);
   transition: 500ms ease;
   transform-origin: left center;
-  background: #323232;
+  background: #E6E6E6;
   padding: 52px 180px 50px 50px;
 }
 
@@ -3330,7 +3330,7 @@ body.out .mouse-pointer {
   left: 20px;
   bottom: 20px;
   width: 207px;
-  background: #323232;
+  background: #E6E6E6;
   border-radius: 5px;
   padding: 15px 30px 16px 30px;
 }
@@ -3392,7 +3392,7 @@ body.out .mouse-pointer {
   width: 350px;
   height: 350px;
   border-radius: 50%;
-  border: 1px solid #323232;
+  border: 1px solid #E6E6E6;
 }
 
 .curve-text .text{
@@ -3401,7 +3401,7 @@ body.out .mouse-pointer {
   top: 48px;
   width: 256px;
   height: 256px;
-  background: #323232;
+  background: #E6E6E6;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -3441,7 +3441,7 @@ body.out .mouse-pointer {
   font-size: 20px;
   text-transform: uppercase;
   line-height: 30px;
-  color: #323232;
+  color: #E6E6E6;
   letter-spacing: 13px;
   font-family: 'Oswald', sans-serif;
 }
@@ -3581,7 +3581,7 @@ body.out .mouse-pointer {
   position: absolute;
   left: 23px;
   bottom: 29px;
-  background: #323232;
+  background: #E6E6E6;
   width: 210px;
   border-radius: 5px;
   padding: 15px 30px 16px 30px;
@@ -3870,7 +3870,7 @@ body.out .mouse-pointer {
   display: inline-block;
   font-size: 20px;
   line-height: 20px;
-  color: #323232;
+  color: #E6E6E6;
 }
 
 .team-block-one .inner-box .image-box .social-links li a:hover{
@@ -3975,7 +3975,7 @@ body.out .mouse-pointer {
 .news-section{
   position: relative;
   padding: 170px 0px 150px 0px;
-  border-bottom: 1px solid #323232;
+  border-bottom: 1px solid #E6E6E6;
 }
 
 .news-section .inner-container{
@@ -3986,7 +3986,7 @@ body.out .mouse-pointer {
 .news-block-two .inner-box{
   position: relative;
   display: block;
-  background: #323232;
+  background: #E6E6E6;
 }
 
 .news-block-two .inner-box .image-box{
@@ -4280,7 +4280,7 @@ body.out .mouse-pointer {
 
 .main-content-outerbox .mobile-menu .navigation li{
   border-top: none;
-  border-bottom: 1px solid #323232;
+  border-bottom: 1px solid #E6E6E6;
 }
 
 .main-content-outerbox .mobile-menu .navigation li:last-child{
@@ -4410,7 +4410,7 @@ body.out .mouse-pointer {
 .banner-style-three .banner-thumb-inner .single-item:before{
   position: absolute;
   content: '';
-  background: #323232;
+  background: #E6E6E6;
   width: 100%;
   height: 100%;
   left: 0px;
@@ -4549,7 +4549,7 @@ body.out .mouse-pointer {
   width: 350px;
   height: 350px;
   border-radius: 50%;
-  border: 1px solid #323232;
+  border: 1px solid #E6E6E6;
   z-index: 1;
 }
 
@@ -4567,7 +4567,7 @@ body.out .mouse-pointer {
   right: 0px;
   bottom: 30px;
   width: 685px;
-  background: #323232;
+  background: #E6E6E6;
   padding: 73px 90px 83px 62px;
 }
 
@@ -4847,7 +4847,7 @@ body.out .mouse-pointer {
 .testimonial-block-two .inner-box{
   position: relative;
   display: block;
-  background: #323232;
+  background: #E6E6E6;
   opacity: 0.95;
   border-radius: 5px;
   padding: 35px 37px 60px 45px;
@@ -5006,7 +5006,7 @@ body.out .mouse-pointer {
 }
 
 .service-style-two .service-block-one .inner-box {
-  background: #323232;
+  background: #E6E6E6;
   margin-bottom: 30px;
   padding-left: 60px;
   padding-right: 60px;
@@ -5145,7 +5145,7 @@ body.out .mouse-pointer {
 .service-sidebar .category-widget{
   position: relative;
   display: block;
-  background: #323232;
+  background: #E6E6E6;
   padding: 56px 50px 50px 50px;
 }
 
@@ -5386,7 +5386,7 @@ body.out .mouse-pointer {
 .team-details .inner-box{
   position: relative;
   display: block;
-  background: #323232;
+  background: #E6E6E6;
   padding-left: 490px;
 }
 
@@ -5430,7 +5430,7 @@ body.out .mouse-pointer {
   display: inline-block;
   font-size: 20px;
   line-height: 20px;
-  color: #323232;
+  color: #E6E6E6;
 }
 
 .team-details .inner-box .image-box .social-links li a:hover{
@@ -5648,8 +5648,8 @@ body.out .mouse-pointer {
   display: block;
   width: 100%;
   height: 84px;
-  background: #323232;
-  border: 1px solid #323232;
+  background: #E6E6E6;
+  border: 1px solid #E6E6E6;
   font-size: 20px;
   font-family: 'Oswald', sans-serif;
   color: #999;
@@ -5749,11 +5749,11 @@ body.out .mouse-pointer {
   display: block;
   width: 100%;
   height: 84px;
-  background: #323232;
+  background: #E6E6E6;
   font-size: 20px;
   font-family: 'Oswald', sans-serif;
   color: #999;
-  border: 1px solid #323232;
+  border: 1px solid #E6E6E6;
   padding: 10px 80px 10px 40px;
   transition: all 500ms ease;
 }
@@ -5805,7 +5805,7 @@ body.out .mouse-pointer {
 
 .blog-details-content{
   position: relative;
-  background: #323232;
+  background: #E6E6E6;
 }
 
 .blog-details-content .news-post{
@@ -5841,7 +5841,7 @@ body.out .mouse-pointer {
 .blog-details-content .content-one blockquote{
   position: relative;
   display: block;
-  background: #272727;
+  background: #E6E6E6;
   padding: 39px 38px 36px 44px;
   margin: 0px 0px 45px 0px;
 }
@@ -6020,7 +6020,7 @@ body.out .mouse-pointer {
 .blog-sidebar .sidebar-widget{
   position: relative;
   display: block;
-  background: #323232;
+  background: #E6E6E6;
   padding: 45px 30px 50px 30px;
   margin-bottom: 60px;
 }
