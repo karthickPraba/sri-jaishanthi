@@ -2099,7 +2099,7 @@ div#mCSB_1_container{
 }
 
 .about-section .image-box .text-inner p{
-  color: white;
+  color: black;
 }
 
 .about-section .content-box{
@@ -3419,12 +3419,14 @@ body.out .mouse-pointer {
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
+  color: #000;
 }
 
 .curve-text .text h3{
   display: block;
   font-size: 30px;
   line-height: 40px;
+  color: #000;
 }
 
 .curve-text .shape{
@@ -3441,7 +3443,7 @@ body.out .mouse-pointer {
   font-size: 20px;
   text-transform: uppercase;
   line-height: 30px;
-  color: #E6E6E6;
+  color: #000;
   letter-spacing: 13px;
   font-family: 'Oswald', sans-serif;
 }
