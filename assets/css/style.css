@@ -5006,7 +5006,7 @@ body.out .mouse-pointer {
 }
 
 .service-style-two .service-block-one .inner-box {
-  background: #E6E6E6;
+  background: #fff;
   margin-bottom: 30px;
   padding-left: 60px;
   padding-right: 60px;
@@ -5026,7 +5026,7 @@ body.out .mouse-pointer {
 }
 
 .service-style-two .service-block-one .inner-box:before{
-  background: #272727;
+  background: #E6E6E6;
 }
 
 .service-style-two .sec-title{
