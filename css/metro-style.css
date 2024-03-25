@@ -47,7 +47,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500');
 
 /* reset */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, button, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h4, h5, h6, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, button, output, ruby, section, summary, time, mark, audio, video {
 font-family: "Montserrat", Arial, Helvetica, sans-serif;
 margin: 0;
 padding: 0;
@@ -56,6 +56,23 @@ font: inherit;
 text-decoration:none;
 list-style: none;
 color: #000;
+}
+
+h3{
+  position:relative;
+  font-family: 'Oswald', sans-serif;
+  color: #CA282E;
+  font-weight: 400;
+  margin: 0px;
+  transition: all 500ms ease;
+}
+p{
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-weight: 400;
+  margin: 0px;
+  transition: all 500ms ease;
 }
 
 /** general **/
@@ -1362,7 +1379,7 @@ li>a:only-child:after {
 #filter-porto li.filt-projects {
   font-size: 10pt;
   font-weight: 400;
-  color: #000;
+  color: #fff;
   letter-spacing: 1px;
   text-transform: uppercase;
   cursor: pointer;
