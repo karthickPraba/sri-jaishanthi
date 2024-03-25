@@ -9118,3 +9118,19 @@ body.out .mouse-pointer {
 
 
 
+/* Add this CSS to make the header sticky */
+.main-header.sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: #fff; /* Adjust as per your design */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+  transition: top 0.3s; /* Add smooth transition effect */
+}
+
+/* Adjust padding or margin for the main content when the header is sticky */
+.main-header.sticky-header + .boxed_wrapper {
+  padding-top: 80px; /* Adjust as per your header height */
+}
