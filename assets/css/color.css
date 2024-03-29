@@ -49,11 +49,11 @@
 }
 
 .banner-carousel .content-box h2 span{
-  color: #545454;
+  color: #fff;
 }
 
 .banner-section .banner-thumb-inner .single-item .count-text{
-  color: #545454;
+  color: #fff;
 }
 
 .about-section .image-box:after{
@@ -73,7 +73,7 @@
 }
 
 .banner-section .banner-thumb-inner .active.current .single-item:before{
-  background: #545454;
+  background: #fff;
 }
 
 .banner-carousel .owl-nav button{

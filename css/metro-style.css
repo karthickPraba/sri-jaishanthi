@@ -2443,11 +2443,11 @@ html {
 }
 
 .banner-section .banner-thumb-inner .active.current .single-item:before{
-  background: #545454;
+  background: white;
 }
 
 .banner-carousel .owl-nav button{
-  color: #545454;
+  color: green;
 }
 
 .banner-carousel .owl-nav button:hover{
