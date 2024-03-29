@@ -17,7 +17,7 @@
 14. Video
 15. Fact Counter
 16. News Section
-19. Clients Section
+19. Clients Sections
 20. Main Footer
 21. Footer Bottom
 22. Research Style Two
@@ -1748,7 +1748,7 @@ div#mCSB_1_container{
 .banner-carousel .slide-item:before{
   position: absolute;
   content: '';
-  background: white;
+  background: ;
   width: 100%;
   height: 100%;
   left: 0px;
