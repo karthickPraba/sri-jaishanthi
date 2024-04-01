@@ -173,7 +173,7 @@ textarea:focus{
 p{
   position: relative;
   font-family: 'Poppins', sans-serif;
-  color: #fff;
+  color: black;
   font-weight: 400;
   margin: 0px;
   transition: all 500ms ease;
@@ -2168,14 +2168,14 @@ div#mCSB_1_container{
 }
 
 .about-section .content-box .author-box .inner p{
-  color: #999;
+  color: black;
   margin-bottom: 15px;
 }
 
 .about-section .content-box .author-box .inner .designation{
   position: relative;
   display: block;
-  color: #999;
+  color: black;
 }
 
 .about-section .shape-layer{

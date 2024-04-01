@@ -716,8 +716,8 @@
 
 	/* mouse cursor */
     document.getElementsByTagName("body")[0].addEventListener("mousemove", function(n) {
-        e.style.left = n.clientX + "px", 
-        e.style.top = n.clientY + "px"
+        e.style.left = n.clientX + "1px", 
+        e.style.top = n.clientY + "1px"
     });
     var 
         e = document.getElementById("mouse-pointer");
@@ -727,7 +727,7 @@
     });
 
     if($('.curved-circle').length) {
-        $('.curved-circle').circleType({position: 'absolute', dir: 1, radius: 165, forceHeight: true, forceWidth: true});
+        $('.curved-circle').circleType({position: 'absolute', dir: 1, radius: 165, forceHeight: true, forceWidth: true,});
     }
 
     //project Tabs
