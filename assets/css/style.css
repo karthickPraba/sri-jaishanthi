@@ -2604,7 +2604,6 @@ body.out .mouse-pointer {
   position: relative;
   display: block;
   overflow: hidden;
-  clip-path: polygon(0% 30%, 100% 0%, 100% 100%, 0% 100%, 0% 0%);
 }
 
 .project-block-one .inner-box:before{
