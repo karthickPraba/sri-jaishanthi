@@ -790,3 +790,15 @@
 	
 
 })(window.jQuery);
+
+
+
+
+
+
+document.addEventListener('mousemove', function(e) {
+	var dot = document.querySelector('.cursor-dot');
+	dot.style.top = (e.pageY - 1) + 'px';
+	dot.style.left = (e.pageX - 1) + 'px';
+  });
+  

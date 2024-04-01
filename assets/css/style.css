@@ -2337,43 +2337,6 @@ div#mCSB_1_container{
 /** custome-mouse-pointer **/
 
 
-.mouse-pointer {
-  position: fixed;
-  top: 50%;
-  left: -100px;
-  -webkit-transform: translate(200%, 200%);
-  -ms-transform: translate(200%, 200%);
-  transform: translate(200%, 200%);
-  width: 10px;
-  height: 10px;
-  pointer-events: none;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  z-index: 9999;
-  -webkit-transition-property: width, height, background;
-  -o-transition-property: width, height, background;
-  transition-property: width, height, background;
-  border-radius: 50%;
-  overflow: hidden;
-  -webkit-transition-timing-function: cubic-bezier(.19, .94, .336, 1);
-  -o-transition-timing-function: cubic-bezier(.19, .94, .336, 1);
-  transition-timing-function: cubic-bezier(.19, .94, .336, 1);
-  font-size: 16px;
-  text-indent: 0;
-  border: none;
-  mix-blend-mode: difference;
-  background-color: black;
-  -webkit-box-shadow: 0 0 0 transparent;
-  -ms-box-shadow: 0 0 0 transparent;
-  box-shadow: 0 0 0 transparent;
-}
-
-body.out .mouse-pointer {
-  width: 0;
-  height: 0;
-}
-
-
 /** service-section **/
 
 .service-section{
@@ -2649,19 +2612,22 @@ body.out .mouse-pointer {
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 14px;
+  color: white;
 }
 
 .project-block-one .inner-box .content-box h2 a{
   display: inline-block;
-  color: black;
+  color: white;
 }
 
 .project-block-one .inner-box .content-box h2 a:hover{
+  color: red;
 
 }
 
 .project-block-one .inner-box .content-box p{
   padding-left: 30px;
+  color: white;
 }
 
 .project-block-one .inner-box .content-box p i{
@@ -6319,3 +6285,12 @@ body.out .mouse-pointer {
 
 
 
+.cursor-dot {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none; /* This ensures the dot doesn't block mouse events on underlying elements */
+  z-index: 9999; /* Ensure it's above other elements */
+}
