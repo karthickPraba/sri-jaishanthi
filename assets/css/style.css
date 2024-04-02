@@ -6306,3 +6306,16 @@ color: #CA282E;
   pointer-events: none; /* This ensures the dot doesn't block mouse events on underlying elements */
   z-index: 9999; /* Ensure it's above other elements */
 }
+
+
+
+.subb-title{
+  color: black;
+  position: relative;
+  display: block;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
