@@ -2572,7 +2572,7 @@ div#mCSB_1_container{
 .project-block-one .inner-box:before{
   position: absolute;
   content: '';
-  background: linear-gradient(180deg, rgba(39, 39, 39, 0) -9.17%, #272727 96.07%);
+  background: linear-gradient(180deg, rgba(39, 39, 39, 0) -9.17%, #fff 96.07%);
   width: 100%;
   height: 100%;
   left: 0px;
