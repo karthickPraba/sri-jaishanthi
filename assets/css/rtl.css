@@ -201,6 +201,7 @@
 .rtl .main-footer .widget-title:after{
   left: inherit;
   right: 0px;
+  color: green;
 }
 
 .rtl .main-footer .about-widget .info li{

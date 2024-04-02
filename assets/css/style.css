@@ -2934,7 +2934,7 @@ div#mCSB_1_container{
   height: 2px;
   left: 0px;
   bottom: -1px;
-  background: linear-gradient(270deg, #0D7DFC -22.92%, #FF9360 56.63%);
+  background: linear-gradient(270deg, #0D7DFC -22.92%, red 56.63%);
   -webkit-mask-image: linear-gradient(-75deg, rgba(244,55,55,0.6) 50%, #f43737 50%, rgba(0,0,0,1) 70%);
   -webkit-mask-size: 200%;
   animation: shine_2 2s infinite;
@@ -2969,7 +2969,7 @@ div#mCSB_1_container{
   font-size: 20px;
   line-height: 30px;
   font-family: 'Oswald', sans-serif;
-  color: black;
+  color: white;
   margin-bottom: 25px;
   padding: 4px 0px 6px 57px;
 }
@@ -2986,7 +2986,7 @@ div#mCSB_1_container{
   height: 40px;
   line-height: 40px;
   font-size: 20px;
-  color: black;
+  color: white;
   background: #FD1A5A;
   text-align: center;
   border-radius: 50%;
@@ -2997,19 +2997,23 @@ div#mCSB_1_container{
 }
 
 .main-footer .contact-widget .info-list li:nth-child(2) i{
-  background: #84CB74;
+  background: #333333;
 }
+
+
 
 .main-footer .contact-widget .info-list li:last-child i{
   background: #333333;
 }
 
+
+
 .main-footer .contact-widget .info-list li a{
-  color: black;
+  color: white;
 }
 
 .main-footer .contact-widget .info-list li a:hover{
-
+color: red;
 }
 
 .main-footer .subscribe-widget form .form-group{
@@ -3077,7 +3081,7 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 20px;
   line-height: 30px;
-  color: #999999;
+  color: #fff;
 }
 
 .main-footer .subscribe-widget .social-links li a:hover{
