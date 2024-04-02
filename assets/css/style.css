@@ -2923,6 +2923,7 @@ div#mCSB_1_container{
   display: block;
   padding-bottom: 12px;
   margin-bottom: 40px;
+  color: white;
 }
 
 .main-footer .widget-title:before{
@@ -2953,6 +2954,7 @@ div#mCSB_1_container{
   font-size: 30px;
   line-height: 40px;
   font-weight: 400;
+  color: white;
 }
 
 .main-footer .contact-widget{
@@ -3082,6 +3084,7 @@ color: #CA282E;
   font-size: 20px;
   line-height: 30px;
   display: block;
+  color: white;
 }
 
 .main-footer .subscribe-widget .social-links li a{
@@ -3110,6 +3113,9 @@ color: #CA282E;
 
 .footer-bottom .copyright h4 a{
   color: black;
+}
+.footer-bottom .copyright h4 {
+  color: white;
 }
 
 .footer-bottom .copyright h4 a:hover{
