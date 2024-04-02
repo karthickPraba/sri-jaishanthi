@@ -5637,7 +5637,7 @@ color: #CA282E;
   border: 1px solid #E6E6E6;
   font-size: 20px;
   font-family: 'Oswald', sans-serif;
-  color: #999;
+  color: #fff;
   padding: 10px 180px 10px 40px;
   transition: all 500ms ease;
 }
@@ -5651,6 +5651,7 @@ color: #CA282E;
   top: 11px;
   right: 16px;
   padding: 16px 40px;
+  background: white;
 }
 
 .comingsoon-section .inner-box .btn-box .theme-btn{
@@ -5748,9 +5749,10 @@ color: #CA282E;
   top: 30px;
   right: 30px;
   font-size: 24px;
-  color: #999;
+  color: #fff;
   cursor: pointer;
   transition: all 500ms ease;
+  background: #fff;
 }
 
 .error-section .inner-box .form-inner .form-group input:focus{
