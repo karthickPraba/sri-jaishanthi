@@ -4963,13 +4963,14 @@ color: #CA282E;
   position: absolute;
   top: 0px;
   right: 65px;
-  width: 203px;
-  height: 203px;
+  width: 20opx;
+  height: 200px;
   line-height: 203px;
   border-radius: 50%;
   text-align: center;
   -webkit-animation: zoom-fade 4s infinite linear;
   animation: zoom-fade 4s infinite linear;
+  background: none;
 }
 
 .about-style-three .pattern-layer{
@@ -5000,7 +5001,7 @@ color: #CA282E;
 .service-block-one .inner-box p{
   font-size: 12px;
   line-height: 22px;
-  color: #999;
+  color: #000;
   margin-top: 15px;
 }
 
@@ -5060,6 +5061,7 @@ color: #CA282E;
 .testimonial-style-three{
   position: relative;
   padding-bottom: 120px;
+  margin-top: 8%;
 }
 
 .testimonial-style-three .inner-container{
