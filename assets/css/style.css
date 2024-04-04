@@ -79,6 +79,7 @@ body {
   background-repeat:no-repeat;
   background-position:center top;
   -webkit-font-smoothing: antialiased;
+  width: 100%;
 }
 
   @media (min-width:1200px) {
@@ -89,7 +90,7 @@ body {
 }
 
 .large-container{
-  max-width: 1560px;
+  max-width: 1560ppx;
   padding: 0px 15px;
   margin: 0 auto;
 }
@@ -6276,7 +6277,7 @@ color: #CA282E;
 }
 
 .contact-page-section .content-box .text p{
-  color: #999;
+  color: #000;
 }
 
 .contact-page-section .pattern-layer{
