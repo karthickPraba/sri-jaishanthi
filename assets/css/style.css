@@ -562,7 +562,7 @@ img {
 
 .sec-title h2{
   display: block;
-  font-size: 45px;
+  font-size: 16px;
   line-height: 55px;
   font-weight: 400;
 }
@@ -865,11 +865,16 @@ img {
 
 .sidebar-info-contents .content-inner .logo {
   padding:0px 0px 40px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 35%;
 }
 
 .sidebar-info-contents .content-inner .logo img{
   display:inline-block;
   max-width:30%; 
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar-info-contents .content-inner .content-box{
@@ -888,6 +893,9 @@ img {
   font-size:15px;
   margin-bottom:25px;
   color: #d0cbc8;
+  justify-content: center;
+  align-items: center;
+  text-align:justify;
 }
 
 .sidebar-info-contents .content-inner .content-box .theme-btn-two{
@@ -4868,7 +4876,7 @@ color: #CA282E;
   font-size: 20px;
   line-height: 30px;
   font-family: 'Oswald', sans-serif;
-  color: #999;
+  color: #000;
   margin-bottom: 20px;
 }
 
@@ -4927,9 +4935,9 @@ color: #CA282E;
 .about-style-three .content-box .text p{
   position: relative;
   display: block;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 22px;
-  color: #999;
+  color: #000;
   margin-bottom: 32px;
 }
 
@@ -6267,12 +6275,14 @@ color: #CA282E;
   position: relative;
   display: block;
   margin-bottom: 38px;
+  margin-left: 23%;
 }
 
 .contact-page-section .content-box .text{
   position: relative;
   display: block;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .contact-page-section .content-box .text p{
@@ -6328,4 +6338,11 @@ color: #CA282E;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   margin-bottom: 17px;
+}
+
+
+#last-team{
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }

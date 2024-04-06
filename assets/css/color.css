@@ -409,7 +409,7 @@
 }
 
 .blog-sidebar .category-widget .category-list li a:before{
-  background: #545454;
+  background: #5454;
 }
 
 .blog-sidebar .tags-widget .tags-list li a:hover{
@@ -424,3 +424,4 @@
 .contact-page-section .content-box .info-list li a:hover{
   color: #CA282E;
 }
+
