@@ -2078,7 +2078,7 @@ div#mCSB_1_container{
   transform: scale(1.05);
 }
 
-.about-section .image-box:before{
+.about-section .image-box:before {
   position: absolute;
   content: '';
   background-image: url(../images/shape/shape-8.png);
@@ -2087,7 +2087,7 @@ div#mCSB_1_container{
   left: 40px;
   bottom: 70px;
   z-index: 1;
-  background-size: cover;
+    background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -6358,3 +6358,20 @@ color: #CA282E;
 .main-footer .subb-title{
   color: #CA282E;
 }
+
+
+.about-section .image-box:before {
+  position: absolute;
+  content: '';
+  background-image: url(./assets/images/shape-8.png);
+  width: 620px;
+  height: 786px;
+  left: 40px;
+  bottom: 70px;
+  z-index: 1;
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+
