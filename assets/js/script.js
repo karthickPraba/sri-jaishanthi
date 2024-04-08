@@ -802,3 +802,35 @@ document.addEventListener('mousemove', function(e) {
 	dot.style.left = (e.pageX - 1) + 'px';
   });
   
+
+
+
+
+
+
+
+
+  document.addEventListener('DOMContentLoaded', function() {
+	// Select the element
+	var imageBox = document.querySelector('.about-section .image-box');
+  
+	// Create a new pseudo-element
+	var pseudoElement = document.createElement('div');
+  
+	// Apply styles to the pseudo-element
+	pseudoElement.style.position = 'absolute';
+	pseudoElement.style.content = "''";
+	pseudoElement.style.backgroundImage = 'url(../images/shape-8.png)';
+	pseudoElement.style.width = '620px';
+	pseudoElement.style.height = '786px';
+	pseudoElement.style.left = '40px';
+	pseudoElement.style.bottom = '70px';
+	pseudoElement.style.zIndex = '1';
+	pseudoElement.style.backgroundSize = 'cover';
+	pseudoElement.style.backgroundRepeat = 'no-repeat';
+	pseudoElement.style.backgroundPosition = 'top center';
+  
+	// Append the pseudo-element to the image box
+	imageBox.appendChild(pseudoElement);
+  });
+  
