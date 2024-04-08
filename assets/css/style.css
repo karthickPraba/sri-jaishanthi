@@ -562,7 +562,7 @@ img {
 
 .sec-title h2{
   display: block;
-  font-size: 22px;
+  font-size: 26px;
   line-height: 55px;
   font-weight: 400;
 }
@@ -6315,6 +6315,10 @@ color: #CA282E;
 
 /** custom css**/
 
+
+.inner-box{
+  override-colors: black;
+}
 
 
 .cursor-dot {
