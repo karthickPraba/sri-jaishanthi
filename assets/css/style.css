@@ -886,6 +886,9 @@ img {
   font-size:20px;
   font-weight:700;
   margin-bottom:20px;
+  justify-content:center;
+  align-items: center;
+  text-align: justify;
 }
 
 .sidebar-info-contents .content-inner .content-box p{
@@ -893,9 +896,9 @@ img {
   font-size:15px;
   margin-bottom:25px;
   color: #d0cbc8;
+  text-align:justify;
   justify-content: center;
   align-items: center;
-  text-align:justify;
 }
 
 .sidebar-info-contents .content-inner .content-box .theme-btn-two{
@@ -904,7 +907,7 @@ img {
 
 .sidebar-info-contents .content-inner .contact-info{
   position:relative;
-  margin-top:60px;
+  margin-top:-3px;
 }
 
 .sidebar-info-contents .content-inner .contact-info ul li{
