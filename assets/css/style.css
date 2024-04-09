@@ -886,7 +886,8 @@ img {
   position:relative;
   font-size:20px;
   font-weight:700;
-  margin-bottom:20px;
+  margin-top: 3px;
+  margin-bottom: 1px;
   justify-content:center;
   align-items: center;
   text-align: justify;
@@ -6389,7 +6390,6 @@ color: #CA282E;
 
 .sidebar-logo{
   width: 120%;
-  margin-top: -5%;
 }
 
 .content-box{
@@ -6398,6 +6398,3 @@ color: #CA282E;
 }
 
 
-.contact-info{
-  margin-top: 100px;
-}
