@@ -384,6 +384,7 @@ img {
 
 .theme-btn.btn-one{
   margin-top: -2%;
+  margin-bottom: 8%;
 
 }
 
@@ -910,7 +911,7 @@ img {
 
 .sidebar-info-contents .content-inner .contact-info{
   position:relative;
-  margin-top:-3px;
+  margin-top:10px;
 }
 
 .sidebar-info-contents .content-inner .contact-info ul li{
@@ -6397,5 +6398,7 @@ color: #CA282E;
   margin-top: -4%;
   margin-bottom: 2%;
 }
+
+
 
 
