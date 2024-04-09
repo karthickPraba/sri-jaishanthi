@@ -6385,3 +6385,18 @@ color: #CA282E;
   align-items: center;
   margin-left: 3%;
 }
+
+
+.sidebar-logo{
+  width: 120%;
+}
+
+.content-box{
+  margin-top: -4%;
+  margin-bottom: 2%;
+}
+
+
+.contact-info{
+  margin-top: 100px;
+}
