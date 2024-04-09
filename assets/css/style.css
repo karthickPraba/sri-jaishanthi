@@ -2722,7 +2722,7 @@ div#mCSB_1_container{
 }
 
 .project-section .more-btn{
-  margin-top: 50px;
+  margin-top: 65px;
 }
 
 
@@ -2766,6 +2766,7 @@ div#mCSB_1_container{
 .news-section{
   position: relative;
   padding: 150px 0px 162px 0px;
+  margin-top: -120px;
 }
 
 .news-block-one .inner-box{
@@ -6439,3 +6440,6 @@ color: #CA282E;
 .image-column{
   margin-top: -250px;
 }
+
+
+
