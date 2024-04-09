@@ -434,39 +434,7 @@ section {
 }
 /* end preloader */
 
-/* navigation */
-.navbar-default {
-  position: fixed;
-  background: rgba(0, 0, 0, 0);
-  top: 0px;
-  border-bottom: 1px groove rgba(255, 255, 255, 0);
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-}
-.navbar-default {
-  height: 75px;
-}
-.navbar-default.fullHeight {
-  height: 100%!important;
-}
-.navbar-brand {
-  position: relative;
-  top: -7px;
-  padding-bottom: 20px;
-  left: 25px;
-  z-index: 2;
-}
-.navbar-brand img {
-  width: 100%;
-  height: auto;
-  -webkit-transform: translateY(0);
-  -ms-transform: translateY(0);
-  transform: translateY(0);
-  -webkit-transition: all .1s ease-in-out;
-  -moz-transition: all .1s ease-in-out;
-  transition: all .1s ease-in-out;
-}
+/
 .scroll-link {
   cursor: pointer;
 }
@@ -666,7 +634,6 @@ li>a:only-child:after {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: url('../img/pattern.png');
 }
 
 .overlay-main {
