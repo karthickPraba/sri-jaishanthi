@@ -565,6 +565,7 @@ img {
   font-size: 45px;
   line-height: 55px;
   font-weight: 400;
+  color: #CA282E;
 }
 
 
@@ -4798,8 +4799,8 @@ color: #CA282E;
 .page-title .outer-container .bg-layer:before{
   position: absolute;
   content: '';
-
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) -9.17%, #fff 96.07%);;
+  background:   linear-gradient(180deg, rgba(255, 255, 255, 0) -9.17%, #fff 96.07%);
+  color: red;
   left: 0px;
   top: 0px;
   width: 100%;
@@ -4851,6 +4852,7 @@ color: #CA282E;
   border-radius: 5px;
   padding: 35px 37px 60px 45px;
   overflow: hidden;
+  height: 450px;
 }
 
 .testimonial-block-two .inner-box:before{
