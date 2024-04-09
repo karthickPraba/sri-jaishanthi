@@ -6365,4 +6365,16 @@ color: #CA282E;
 }
 
 
+.subbb-title{
+  color: #4D4D4D;
+  position: relative;
+  display: block;
+  font-size: 28px;
+  line-height: 30px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
+
+
 
