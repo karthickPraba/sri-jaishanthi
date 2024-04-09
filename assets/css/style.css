@@ -6378,3 +6378,10 @@ color: #CA282E;
 
 
 
+.contact-text{
+  text-align: justify;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3%;
+}
