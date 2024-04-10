@@ -3815,6 +3815,7 @@ color: #CA282E;
 .team-block-one{
   position: relative;
   margin-bottom: 25px;
+  
 }
 
 .team-block-one .inner-box{
@@ -3832,6 +3833,7 @@ color: #CA282E;
   position: relative;
   display: block;
   overflow: hidden;
+  margin-top: -100px;
 }
 
 .team-block-one .inner-box .image-box img{
