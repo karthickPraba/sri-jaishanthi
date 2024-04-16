@@ -2085,16 +2085,17 @@ div#mCSB_1_container{
 
 .about-section .row::after {
   content: '';
-  background-image: url('../images/shape/Sri\ Jaishanthi\ Website\ Assets.png');
+  background-image: url('../images/Sri\ Jaishanthi\ Website\ Assets\ \(1\).png');
   width: 620px;
   height: 786px;
-  left: 60px;
-  bottom: 70px;
+  left: 10%;
+  bottom: 1%;
   z-index: 1;
-    background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  margin-top: -60%;
+  margin-top: -52%;
+  margin-right: -10%;
 }
 
 
@@ -6445,3 +6446,7 @@ color: #CA282E;
 
 
 
+.service-block-one .inner-box img{
+  width: 84px;
+  height: 84px;
+}
