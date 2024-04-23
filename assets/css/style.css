@@ -689,12 +689,12 @@ img {
 }
 
 .main-header .logo-box .logo{
-  max-width: 100px;
-  width: 100%;
+  max-width: 110px;
+  width: 110%;
 }
 
 .main-header .logo-box .logo img{
-  width: 100%;
+  width: 110%;
 }
 
 .main-header .menu-area{
@@ -1749,7 +1749,6 @@ div#mCSB_1_container{
 .banner-section{
   position: relative;
   overflow: hidden;
-  padding-left: 125px;
   padding-bottom: 125px;
   background: white;
   border-bottom: 1px solid #333333;
