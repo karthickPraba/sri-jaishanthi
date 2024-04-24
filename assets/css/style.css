@@ -2086,7 +2086,7 @@ div#mCSB_1_container{
 
 .about-section .row::after {
   content: '';
-  background-image: url('../images/Sri\ Jaishanthi\ Website\ Assets\ \(1\).png');
+  background-image: url('../images/Sri\ Jaishanthi\ Website\ Assets\ -\ Red.png');
   width: 620px;
   height: 786px;
   left: 10%;
@@ -2095,7 +2095,7 @@ div#mCSB_1_container{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  margin-top: -52%;
+  margin-top: -65%;
   margin-right: -10%;
 }
 
