@@ -5424,15 +5424,16 @@ color: #CA282E;
 
 .team-details .inner-box .image-box .social-links{
   position: absolute;
-  bottom: 125px;
   right: 30px;
   z-index: 1;
+  margin-top: -70%;
 }
 
 .team-details .inner-box .image-box .social-links li{
   position: relative;
   display: block;
   margin-bottom: 20px;
+  color: black;
 }
 
 .team-details .inner-box .image-box .social-links li:last-child{
@@ -5444,7 +5445,7 @@ color: #CA282E;
   display: inline-block;
   font-size: 20px;
   line-height: 20px;
-  color: #E6E6E6;
+  color: #000;
 }
 
 .team-details .inner-box .image-box .social-links li a:hover{
