@@ -1809,6 +1809,7 @@ div#mCSB_1_container{
   display: block;
   z-index:5;
   width: 100%;
+  margin-top: 10px;
 }
 
 .banner-carousel .content-box .icon-box{
@@ -1820,7 +1821,7 @@ div#mCSB_1_container{
   text-align: center;
   background: white;
   border-radius: 50%;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   opacity: 0;
   -webkit-transform: translateY(-100px);
   -moz-transform: translateY(-100px);
@@ -1924,6 +1925,7 @@ div#mCSB_1_container{
 
 .banner-carousel .content-box .btn-box .theme-btn{
   padding: 16px 40px;
+  margin-top: -10px;
 }
 
 .banner-carousel .owl-nav{
@@ -1957,8 +1959,9 @@ div#mCSB_1_container{
 .banner-section .banner-thumb-inner .single-item{
   position: relative;
   text-align: left;
-  padding-left: 15px;
+  padding-left: 20px;
   padding-bottom: 28px;
+  padding-top: 15px;
 }
 
 .banner-section .banner-thumb-inner .active.current .single-item:before{
