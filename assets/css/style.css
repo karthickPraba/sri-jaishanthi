@@ -6406,18 +6406,16 @@ color: #CA282E;
 
 
 .sidebar-logo{
-  width: 200%;
-  padding: 0%;
+  width: 90%;
   position:static;
   margin-left: -10px;
-  margin-bottom: -0%;
-  margin-top: -1%;
+  margin-top: -30%;
   margin-right: 10%;
 }
 
 .content-box{
-  margin-top: -4%;
   margin-bottom: 2%;
+  padding-top: 9%;
 }
 
 
