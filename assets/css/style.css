@@ -6406,12 +6406,13 @@ color: #CA282E;
 
 
 .sidebar-logo{
+  width: 200%;
   padding: 0%;
-  padding-left: -100px;
-  position: relative;
+  position:static;
   margin-left: -10px;
-  margin-bottom: -10%;
-  margin-top: -30%;
+  margin-bottom: -0%;
+  margin-top: -1%;
+  margin-right: 10%;
 }
 
 .content-box{
