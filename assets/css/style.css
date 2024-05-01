@@ -20,7 +20,7 @@
 19. Clients Sections
 20. Main Footer
 21. Footer Bottom
-22. Research Style Two
+22. Research Style Twof
 23. Innovative Solution
 24. Discover Section
 25. Testimonial Section
@@ -6460,4 +6460,8 @@ color: #CA282E;
 .service-block-one .inner-box img{
   width: 84px;
   height: 84px;
+}
+
+.icon-4{
+  font-size: 28px;
 }
