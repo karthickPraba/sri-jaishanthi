@@ -6465,3 +6465,16 @@ color: #CA282E;
 .icon-4{
   font-size: 28px;
 }
+
+
+span {
+  display: flex; /* Make the span a flex container */
+  align-items: center; /* Align content vertically within the span */
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+strong {
+  margin-right: 5px; /* Add a slight margin for better visual separation */
+}
