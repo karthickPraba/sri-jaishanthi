@@ -281,9 +281,12 @@
                    color: black;"
                    
             onclick="toggleForm()">✖</button>
-    <form style="display: flex;
+    <form action="https://api.web3forms.com/submit" method="POST" style="display: flex;
                  flex-direction: column;
                 ">
+
+<input type="hidden" name="access_key" value="19a11117-6d85-4c94-b7ba-9a532fb58d7c">
+
 
         <input type="text" id="name" name="Name" placeholder="Name" style="margin-bottom: 10px;
                                                                                padding: 10px;
@@ -291,8 +294,6 @@
                                                                                border-radius: 5px;
                                                                                color: #000;
                                                                                max-width: 400px;
-
-
                                                                                font-size: 16px;" required>
 
         <input type="email" id="email" name="email" placeholder="Email" style="margin-bottom: 10px;
@@ -301,7 +302,6 @@
                                                                                  border-radius: 5px;
                                                                                  color: #000;
                                                                                  max-width: 400px;
-
                                                                                  font-size: 16px;" required>
 
         <textarea  type="text" id="message" name="message" rows="4" placeholder="Message" style="margin-bottom: 10px;
@@ -309,7 +309,6 @@
                                                                                      border: 1px solid #000;
                                                                                      color: #000;
                                                                                      max-width: 400px;
-
                                                                                      border-radius: 5px;
                                                                                      font-size: 16px;" required></textarea>
 
@@ -335,6 +334,9 @@
       }
   }
 </script>
+
+<script src="https://web3forms.com/client/script.js" async defer></script>
+
 
        
         </div>
