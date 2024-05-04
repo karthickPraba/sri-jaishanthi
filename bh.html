@@ -32,7 +32,9 @@
     <style>
 
       .dropdown a:hover{
-        color: red;
+        color: red;}
+      input::placeholder {
+        color: black;
 
       }
     </style>
@@ -225,20 +227,127 @@
         <span style="font-family:'Oswald', sans-serif; display: block; font-size: 20px; line-height: 30px;"><strong>Unit Size:</strong>---</span>
         <span style="font-family:'Oswald', sans-serif; display: block; font-size: 20px; line-height: 30px;"><strong>Total Unit:</strong> --- </span>
         <span style="font-family:'Oswald', sans-serif; display: block; font-size: 20px; line-height: 30px;"><strong>Possession:</strong> ---</span>
+        <button style="background-color: red;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 4px 2px;
+        cursor: pointer;
+        margin-top:30px;
+        margin-left: 15%;
+        border-radius: 10px;"  onclick="toggleForm()">Enquire Now</button>
+
+
+
+<!-- Enquiry form container -->
+
+<div id="enquiryForm" style="display: none;
+                               width: 100%;
+                               max-width: 500px;
+                               padding: 20px;
+                               background-color: #f2f2f2;
+                               border-radius: 10px;
+                               position: fixed;
+                               margin-top: 60%;
+                               top: 50%;
+                               left: 50%;
+                               transform: translate(-50%, -50%);
+                               box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <button style="background-color: transparent;
+                   border: none;
+                   font-size: 20px;
+                   cursor: pointer;
+                   position: absolute;
+                   top: 10px;
+                   right: 10px;
+                   color: black;"
+                   
+            onclick="toggleForm()">✖</button>
+    <form   action="https://api.web3forms.com/submit" method="POST" style="display: flex;
+                 flex-direction: column;
+                " >
+
+<input type="hidden" name="access_key" value="ed8d5b49-8c86-474d-9997-193db218c545">
+
+
+        <input type="text" id="name" name="Name" placeholder="Name" style="margin-bottom: 10px;
+                                                                               padding: 10px;
+                                                                               border: 1px solid #000;
+                                                                               border-radius: 5px;
+                                                                               color: #000;
+                                                                               max-width: 400px;
+                                                                               font-size: 16px;" required>
+
+        <input type="email" id="email" name="email" placeholder="Email" style="margin-bottom: 10px;
+                                                                                 padding: 10px;
+                                                                                 border: 1px solid #000;
+                                                                                 border-radius: 5px;
+                                                                                 color: #000;
+                                                                                 max-width: 400px;
+                                                                                 font-size: 16px;" >
+
+<input type="text" id="name" name="Phone" placeholder="Mobile" style="margin-bottom: 10px;
+padding: 10px;
+border: 1px solid #000;
+border-radius: 5px;
+color: #000;
+max-width: 400px;
+font-size: 16px;" required>
+
+        <textarea  type="text" id="message" name="message" rows="4" placeholder="Message" style="margin-bottom: 10px;
+                                                                                     padding: 10px;
+                                                                                     border: 1px solid #000;
+                                                                                     color: #000;
+                                                                                     max-width: 400px;
+                                                                                     border-radius: 5px;
+                                                                                     font-size: 16px;" required></textarea>
+
+        <button type="submit" style="padding: 10px 20px;
+                                      font-size: 16px;
+                                      background-color: red;
+                                      border: none;
+                                      color: white;
+                                      border-radius: 5px;
+                                      cursor: pointer;">Submit</button>
+    </form>
+</div>
+                                                        
+
+<script>
+  // Function to toggle the visibility of the form
+  function toggleForm() {
+      var form = document.getElementById("enquiryForm");
+      if (form.style.display === "none") {
+          form.style.display = "block";
+      } else {
+          form.style.display = "none";
+      }
+  }
+</script>
+
+<script src="https://web3forms.com/client/script.js" async defer></script>
+
+
+       
         </div>
         </div>
         <!-- text detail end -->
         
       <div class="space-single"></div>  
       <!-- button projects -->  
-      <div class="col-md-6">
+      <div class="col-md-6" style="margin-top:12%">
       <div class="pro-btn">
       <a href="geethanjali.html">
       PREV PROJECTS
       </a>
       </div>
       </div>  
-      <div class="col-md-6">
+      <div class="col-md-6" style="margin-top:12%">
       <div class="pro-btn">
       <a href="palacio.html">
       NEXT PROJECTS
