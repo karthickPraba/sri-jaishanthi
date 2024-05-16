@@ -331,7 +331,86 @@ h1,h2,h3,h4,h5,h6{
     height: 7em;
     width: 7em;
   }
-  .handle-preloader .animation-preloader .txt-loading .letters-loading {font-size: 40px; letter-spacing: 10px;}
+  .handle-preloader .animation-preloader .txt-loading .letters-loading {font-size: 40px; letter-spacing: 1px;}
+
+
+  img {
+    display: inline-block;
+    max-width: 80%;
+    height: auto;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+  }
+
+ .author-thumb > img {
+
+  margin-bottom: -300px;
+
+ }
+
+ .inner{
+  max-width: 100%;
+ }
+
+ .text{
+  max-width: 100%;
+ }
+
+ .service-section {
+  margin-top: -450px;
+ }
+
+ .title-box > h2{
+  margin-left: -210px;
+ }
+
+ .about-mob{
+  margin-left: -60px;
+ }
+
+ .testimonial-block-two > .inner-box{
+
+  min-height: 550px;
+ }
+
+
+ .services-tittle >  h2{
+  margin-left: 45px;
+ }
+
+ .image > img{
+  min-height: 500px;
+  min-width: 400px;
+ }
+
+ .team-mob{
+  margin-left: 220px;
+ }
+
+ .small-column .image{
+  margin-top: -0px;
+ }
+
+
+ .row{
+  margin-top: 100px;
+ }
+
+ .large-container .title-box > h2{
+  margin-left: 20px;
+ }
+
+
+
+ 
+
+
+ 
+
+ 
+  
 }
 
 
@@ -1378,7 +1457,7 @@ img {
   font-size: 40px;
   line-height: 50px;
   cursor: pointer;
-  color: #3786ff;
+  color: #CA282E;
   display: none;
 }
 
@@ -1529,6 +1608,7 @@ img {
   max-height: 100%;
   overflow-y: auto;
   background: #141417;
+  color: #CA282E;
   padding: 0px 0px;
   z-index: 5;
   opacity: 0;
@@ -1542,7 +1622,9 @@ img {
 
 .mobile-menu-visible .mobile-menu .menu-box{
   opacity: 1;
-  visibility: visible;
+  visibility: visible; 
+  color: #CA282E;
+
   -webkit-transition: all 0.7s ease;
   -o-transition: all 0.7s ease;
   transition: all 0.7s ease;
@@ -1592,14 +1674,20 @@ img {
   position: relative;
   display: block;
   border-top: 1px solid rgba(255,255,255,0.10);
+  color: #CA282E;
+  padding: 5px;
 }
 
 .mobile-menu .navigation:last-child{
   border-bottom: 1px solid rgba(255,255,255,0.10);
+  color: #CA282E;
+
 }
 
 .mobile-menu .navigation li > ul > li:first-child{
   border-top: 1px solid rgba(255,255,255,0.10);
+  color: #CA282E;
+
 }
 
 .mobile-menu .navigation li > a{
@@ -1616,12 +1704,16 @@ img {
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
   transition: all 500ms ease; 
+  color: #CA282E;
+
 }
 
 .mobile-menu .navigation li ul li > a{
   font-size: 16px;
   margin-left: 20px;
   text-transform: capitalize;
+  color: #CA282E;
+
 }
 
 .mobile-menu .navigation li > a:before{
