@@ -386,7 +386,7 @@ h1,h2,h3,h4,h5,h6{
  }
 
  .team-mob{
-  margin-left: 220px;
+  margin-left: 20px;
  }
 
  .small-column .image{
@@ -403,6 +403,29 @@ h1,h2,h3,h4,h5,h6{
  }
 
 
+.image-layer{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
+
+
+}
+
+
+.service-block{
+  max-width: 200px;
+}
+
+
+.redev-fix{
+  min-height: 430px;
+}
+
+.inner-box{
+  max-height: 430px;
+  min-height: 430px;
+}
 
  
 
