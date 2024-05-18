@@ -380,10 +380,7 @@ h1,h2,h3,h4,h5,h6{
   margin-left: 45px;
  }
 
- .image > img{
-  min-height: 500px;
-  min-width: 400px;
- }
+ 
 
  .team-mob{
   margin-left: 20px;
@@ -392,14 +389,6 @@ h1,h2,h3,h4,h5,h6{
  .small-column .image{
   margin-top: -0px;
  }
-
- .img-mob img {
-  height: auto; /* Adjusts the height to be automatic based on width */
-  max-height: 200px; /* Set a maximum height for the images */
-  width: 100%; /* Ensures the images scale properly to fit the container */
-  object-fit: cover; /* Ensures the images cover the set dimensions properly */
-}
-
 
 
 
@@ -490,7 +479,7 @@ h1,h2,h3,h4,h5,h6{
 
 
 .img-fix .row .small-column .image img{
-  height: 10px;
+  height: 80%;
 }
 
 
@@ -498,6 +487,11 @@ h1,h2,h3,h4,h5,h6{
 
 
  
+
+
+
+
+
   
 }
 
