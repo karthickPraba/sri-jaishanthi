@@ -476,10 +476,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
-.banner-carousel .slide-item .auto-container .content-box .icon-box{
-  width: 100px;
-  height: 100px;
-}
+
 
 .banner-carousel .slide-item .auto-container .content-box .icon-box img{
   padding: 0px;
@@ -492,7 +489,9 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
-
+.img-fix .row .small-column .image img{
+  height: 10px;
+}
 
 
 
