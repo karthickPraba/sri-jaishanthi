@@ -1,692 +1,691 @@
-<!DOCTYPE html>
-<html lang="en">
-    <link rel="icon" href="/path/to/favicon.ico">
+    <!DOCTYPE html>
+    <html lang="en">
+        <link rel="icon" href="/path/to/favicon.ico">
 
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-<title>Sri Jaishanthi</title>
+    <title>Sri Jaishanthi</title>
 
-<!-- Fav Icon -->
-<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <!-- Fav Icon -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-<!-- Stylesheets -->
-<link href="assets/css/font-awesome-all.css" rel="stylesheet">
-<link href="assets/css/flaticon.css" rel="stylesheet">
-<link href="assets/css/owl.css" rel="stylesheet">
-<link href="assets/css/bootstrap.css" rel="stylesheet">
-<link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
-<link href="assets/css/animate.css" rel="stylesheet">
-<link href="assets/css/nice-select.css" rel="stylesheet">
-<link href="assets/css/color.css" rel="stylesheet">
-<link href="assets/css/elpath.css" rel="stylesheet">
-<link href="assets/css/style.css" rel="stylesheet">
-<link href="assets/css/responsive.css" rel="stylesheet">
+    <!-- Stylesheets -->
+    <link href="assets/css/font-awesome-all.css" rel="stylesheet">
+    <link href="assets/css/flaticon.css" rel="stylesheet">
+    <link href="assets/css/owl.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/nice-select.css" rel="stylesheet">
+    <link href="assets/css/color.css" rel="stylesheet">
+    <link href="assets/css/elpath.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
 
-</head>
-
-
-<!-- page wrapper -->
-<body>
-
-    <div class="boxed_wrapper">
-
-        <!-- mouse-pointer -->
-        <div class="cursor-dot"></div>
-        <!-- mouse-pointer end -->
+    </head>
 
 
-        <!-- preloader -->
-        <div class="loader-wrap">
-            <div class="preloader">
-                <div class="preloader-close">x</div>
-                <div id="handle-preloader" class="handle-preloader">
-                    <div class="animation-preloader">
-                        <div class="spinner"></div>
-                        <div class="txt-loading">
-                            <span data-text-preloader="S" class="letters-loading">
-                                S
-                            </span>
-                            <span data-text-preloader="r" class="letters-loading">
-                                r
-                            </span>
-                            <span data-text-preloader="i" class="letters-loading">
-                                i
-                            </span>
-                            <span data-text-preloader="j" class="letters-loading">
-                                j
-                            </span>
-                            <span data-text-preloader="a" class="letters-loading">
-                                a
-                            </span>
-                            <span data-text-preloader="i" class="letters-loading">
-                                i
-                            </span>
-                            <span data-text-preloader="s" class="letters-loading">
-                                s
-                            </span>
-                            <span data-text-preloader="h" class="letters-loading">
-                                h
-                            </span>
-                            <span data-text-preloader="a" class="letters-loading">
-                                a
-                            </span>
-                            <span data-text-preloader="n" class="letters-loading">
-                                n
-                            </span>
-                            <span data-text-preloader="t" class="letters-loading">
-                                t
-                            </span>
-                            <span data-text-preloader="h" class="letters-loading">
-                                h
-                            </span>
-                            <span data-text-preloader="i" class="letters-loading">
-                                i
-                            </span>
-                        </div>
-                    </div>  
-                </div>
-            </div>
-        </div>
-        <!-- preloader end -->
+    <!-- page wrapper -->
+    <body style="overflow-x: hidden;">
+
+        <div class="boxed_wrapper" style="max-width: 100%;">
+
+            <!-- mouse-pointer -->
+            <!-- mouse-pointer end -->
 
 
-        <!--Search Popup-->
-        <div id="search-popup" class="search-popup">
-            <div class="popup-inner">
-                <div class="upper-box clearfix">
-                    <figure class="logo-box pull-left"><a href="project.html"><img src="assets/images/fo.png" alt=""></a></figure>
-                    <div class="close-search pull-right"><span class="far fa-times"></span></div>
-                </div>
-                <div class="overlay-layer"></div>
-                <div class="auto-container">
-                    <div class="search-form">
-                        <form method="post" action="index.html">
-                            <div class="form-group">
-                                <fieldset>
-                                    <input type="search" class="form-control" name="search-input" value="" placeholder="Type your keyword and hit" required >
-                                    <button type="submit"><i class="far fa-search"></i></button>
-                                </fieldset>
+            <!-- preloader -->
+            <div class="loader-wrap">
+                <div class="preloader">
+                    <div class="preloader-close">x</div>
+                    <div id="handle-preloader" class="handle-preloader">
+                        <div class="animation-preloader">
+                            <div class="spinner"></div>
+                            <div class="txt-loading">
+                                <span data-text-preloader="S" class="letters-loading">
+                                    S
+                                </span>
+                                <span data-text-preloader="r" class="letters-loading">
+                                    r
+                                </span>
+                                <span data-text-preloader="i" class="letters-loading">
+                                    i
+                                </span>
+                                <span data-text-preloader="j" class="letters-loading">
+                                    j
+                                </span>
+                                <span data-text-preloader="a" class="letters-loading">
+                                    a
+                                </span>
+                                <span data-text-preloader="i" class="letters-loading">
+                                    i
+                                </span>
+                                <span data-text-preloader="s" class="letters-loading">
+                                    s
+                                </span>
+                                <span data-text-preloader="h" class="letters-loading">
+                                    h
+                                </span>
+                                <span data-text-preloader="a" class="letters-loading">
+                                    a
+                                </span>
+                                <span data-text-preloader="n" class="letters-loading">
+                                    n
+                                </span>
+                                <span data-text-preloader="t" class="letters-loading">
+                                    t
+                                </span>
+                                <span data-text-preloader="h" class="letters-loading">
+                                    h
+                                </span>
+                                <span data-text-preloader="i" class="letters-loading">
+                                    i
+                                </span>
                             </div>
-                        </form>
+                        </div>  
                     </div>
                 </div>
             </div>
-        </div>
+            <!-- preloader end -->
 
 
-        <!-- sidebar cart item -->
-        <div class="xs-sidebar-group info-group info-sidebar">
-            <div class="xs-overlay xs-bg-black"></div>
-            <div class="xs-overlay xs-overlay-2 xs-bg-black"></div>
-            <div class="xs-overlay xs-overlay-3 xs-bg-black"></div>
-            <div class="xs-overlay xs-overlay-4 xs-bg-black"></div>
-            <div class="xs-overlay xs-overlay-5 xs-bg-black"></div>
-            <div class="xs-sidebar-widget">
-                <div class="sidebar-widget-container">
-                    <div class="widget-heading">
-                        <a href="#" class="close-side-widget"><i class="fa fa-times"></i></a>
+            <!--Search Popup-->
+            <div id="search-popup" class="search-popup">
+                <div class="popup-inner">
+                    <div class="upper-box clearfix">
+                        <figure class="logo-box pull-left"><a href="project.html"><img src="assets/images/fo.png" alt=""></a></figure>
+                        <div class="close-search pull-right"><span class="far fa-times"></span></div>
                     </div>
-                    <div class="sidebar-textwidget">
-                        <div class="logo sidebar-logo">
-                            <a href="index.html"><img  src="assets/images/sidebar-log0.png" alt="" /></a>
+                    <div class="overlay-layer"></div>
+                    <div class="auto-container">
+                        <div class="search-form">
+                            <form method="post" action="index.html">
+                                <div class="form-group">
+                                    <fieldset>
+                                        <input type="search" class="form-control" name="search-input" value="" placeholder="Type your keyword and hit" required >
+                                        <button type="submit"><i class="far fa-search"></i></button>
+                                    </fieldset>
+                                </div>
+                            </form>
                         </div>
-                        <div class="sidebar-info-contents">
-                            
-                            <div class="content-inner">
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- sidebar cart item -->
+            <div class="xs-sidebar-group info-group info-sidebar">
+                <div class="xs-overlay xs-bg-black"></div>
+                <div class="xs-overlay xs-overlay-2 xs-bg-black"></div>
+                <div class="xs-overlay xs-overlay-3 xs-bg-black"></div>
+                <div class="xs-overlay xs-overlay-4 xs-bg-black"></div>
+                <div class="xs-overlay xs-overlay-5 xs-bg-black"></div>
+                <div class="xs-sidebar-widget">
+                    <div class="sidebar-widget-container">
+                        <div class="widget-heading">
+                            <a href="#" class="close-side-widget"><i class="fa fa-times"></i></a>
+                        </div>
+                        <div class="sidebar-textwidget">
+                            <div class="logo sidebar-logo">
+                                <a href="index.html"><img  src="assets/images/sidebar-log0.png" alt="" /></a>
+                            </div>
+                            <div class="sidebar-info-contents">
                                 
-                                <div class="content-box">
-                                    <h4>About Us</h4>
-                                    With over two decades of professional experience in Construction, Interior designing and
-                                        Architecture, we predominantly recognise quality and safety as an integral part of our business. We
-                                        signify our commitment to continuously provide a high standard of service to our customers in all
-                                        aspects such as cost, efficiency and quality. </p>
-                                    <a href="about.html" class="theme-btn btn-one">About Us</a>
+                                <div class="content-inner">
+                                    
+                                    <div class="content-box">
+                                        <h4>About Us</h4>
+                                        With over two decades of professional experience in Construction, Interior designing and
+                                            Architecture, we predominantly recognise quality and safety as an integral part of our business. We
+                                            signify our commitment to continuously provide a high standard of service to our customers in all
+                                            aspects such as cost, efficiency and quality. </p>
+                                        <a href="about.html" class="theme-btn btn-one">About Us</a>
+                                    </div>
+                                    <div class="contact-info" >
+                                        <h4>Contact Info</h4>
+                                        <ul>
+                                            <li>G1, Sarvaam Flats,No.76, 
+                                                2nd Main Road, VGP Layout,
+                                                Palavakkam, Chennai - 600041</li>
+                                            <li><a href="tel:+8801682648101">044 35688826, +91 9841269172 </a></li>
+                                            <li><a href="mailto:info@example.com">info@srijaishanthi.com</a></li>
+                                        </ul>
+                                    </div>
+                                    
                                 </div>
-                                <div class="contact-info" >
-                                    <h4>Contact Info</h4>
-                                    <ul>
-                                        <li>G1, Sarvaam Flats,No.76, 
-                                            2nd Main Road, VGP Layout,
-                                            Palavakkam, Chennai - 600041</li>
-                                        <li><a href="tel:+8801682648101">044 35688826, +91 9841269172 </a></li>
-                                        <li><a href="mailto:info@example.com">info@srijaishanthi.com</a></li>
-                                    </ul>
-                                </div>
-                                
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- END sidebar widget item -->
+            <!-- END sidebar widget item -->
 
 
-        <header class="main-header">
-            <!-- header-lower -->
-            <div class="header-lower">
-                <div class="shape" style="background-image: url(assets/images/shape/Sri\ Jaishanthi\ Website\ Scale.png);"></div>
-                <div class="outer-box">
-                    <div class="logo-box">
-                        <figure class="logo"><a href="index.html"><img src="assets/images/logo/Sri Jaishanthi - Logo -400 x 400 px - transparent.png" alt=""></a></figure>
-                    </div>
-                    <div class="menu-area">
-                        <!--Mobile Navigation Toggler-->
-                        <div class="mobile-nav-toggler">
-                            <i class="icon-bar"></i>
-                            <i class="icon-bar"></i>
-                            <i class="icon-bar"></i>
+            <header class="main-header">
+                <!-- header-lower -->
+                <div class="header-lower">
+                    <div class="shape" style="background-image: url(assets/images/shape/Sri\ Jaishanthi\ Website\ Scale.png);"></div>
+                    <div class="outer-box">
+                        <div class="logo-box">
+                            <figure class="logo"><a href="index.html"><img src="assets/images/logo/Sri Jaishanthi - Logo -400 x 400 px - transparent.png" alt=""></a></figure>
                         </div>
-                        <nav class="main-menu navbar-expand-md navbar-light">
-                            <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                                <ul class="navigation clearfix">
-                                    <li class="current dropdown"><a href="index.html">Home</a>
-                                        
-                                    </li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li class="dropdown"><a href="service.html">Services</a>
-                                        
-                                    </li>
-                                    <li class="dropdown"><a href="project.html">Projects</a>
-                                        
-                                    </li>
-                                    <li class="dropdown"><a href="team.html">Our Team</a>
-                                       
-                                    </li>
+                        <div class="menu-area">
+                            <!--Mobile Navigation Toggler-->
+                            <div class="mobile-nav-toggler">
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                            </div>
+                            <nav class="main-menu navbar-expand-md navbar-light">
+                                <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                    <ul class="navigation clearfix">
+                                        <li class="current dropdown"><a href="index.html">Home</a>
                                             
-                                    </li>
-                                         
-                                    <li><a href="contact.html">Contact</a></li> 
-                                </ul>
-                            </div>
-                        </nav>
-                        <div class="menu-right-content">
-                      
-                            <div class="nav-btn nav-toggler navSidebar-button">
-                                <i class="icon-2"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--sticky Header-->
-            <div class="sticky-header">
-                <div class="outer-box">
-                    <div class="logo-box">
-                        <figure class="logo"><a href="index.html"><img src="assets/images/logo/Sri Jaishanthi - Logo -400 x 400 px - transparent.png" alt=""></a></figure>
-                    </div>
-                    <div class="menu-area clearfix">
-                        <nav class="main-menu clearfix">
-                            <!--Keep This Empty / Menu will come through Javascript-->
-                        </nav>
-                          
-                            <div class="nav-btn nav-toggler navSidebar-button">
-                                <i class="icon-2"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- main-header end -->
-
-        <!-- Mobile Menu  -->
-        <div class="mobile-menu">
-            <div class="menu-backdrop"></div>
-            <div class="close-btn"><i class="fas fa-times"></i></div>
-            
-            <nav class="menu-box">
-                <div class="menu-outer" style="color: red;"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
-               
-                
-            </nav>
-        </div><!-- End Mobile Menu -->
-
-
-        <!-- banner-section -->
-        <section class="banner-section centred">
-            <div class="line-shape">
-                <div class="line line-3"></div>
-                <div class="line line-4"></div>
-            </div>
-            <div class="banner-carousel owl-carousel owl-theme owl-dots-none" id="sync1">
-                <div class="slide-item">
-                    <div class="image-layer" style="background-image:url(assets/images/gome/geethanjali.jpg)"></div>
-                    <div class="auto-container">
-                        <div class="content-box">
-                            <div class="icon-box"><img src="assets/images/logo/Sri Jaishanthi Logo - 74 x110.png" alt=""></div>
-                            <h2>BUILDING THE BETTER, <br /><span>Turning Ideas into Concrete Reality</span> </h2>
-                            <div class="btn-box">
-                                <a href="geethanjali.html" class="theme-btn btn-one">View Our Projects</a>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-                <div class="slide-item">
-                    <div class="image-layer" style="background-image:url(assets/images/gome/Poornima.jpg)"></div>
-                    <div class="auto-container">
-                        <div class="content-box">
-                            <div class="icon-box"><img src="assets/images/logo/Sri Jaishanthi Logo - 74 x110.png" alt=""></div>
-                            <h2>BUILDING THE BETTER, <br /><span>Turning Ideas into Concrete Reality</span> </h2>
-                            <div class="btn-box">
-                                <a href="poornima.html" class="theme-btn btn-one">View Our Projects</a>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-                <div class="slide-item">
-                    <div class="image-layer" style="background-image:url(assets/images/gome/Tejas.jpg)"></div>
-                    <div class="auto-container">
-                        <div class="content-box">
-                            <div class="icon-box"><img src="assets/images/logo/Sri Jaishanthi Logo - 74 x110.png" alt=""></div>
-                            <h2>BUILDING THE BETTER, <br /><span>Turning Ideas into Concrete Reality</span> </h2>
-                            <div class="btn-box">
-                                <a href="tejas.html" class="theme-btn btn-one">View Our Projects</a>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-                <div class="slide-item">
-                    <div class="image-layer" style="background-image:url(assets/images/gome/Rajan\ Bunglaw.jpg)"></div>
-                    <div class="auto-container">
-                        <div class="content-box">
-                            <div class="icon-box"><img src="assets/images/logo/Sri Jaishanthi Logo - 74 x110.png" alt=""></div>
-                            <h2>BUILDING THE BETTER, <br /><span>Turning Ideas into Concrete Reality</span> </h2>
-                            <div class="btn-box">
-                                <a href="rajan.html" class="theme-btn btn-one">View Our Projects</a>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-            </div>
-
-            <div class="banner-thumb-inner clearfix">
-                <div class="owl-carousel owl-theme owl-dots-none owl-nav-none" id="sync2">
-                    <div class="single-item">
-                        <span class="count-text">01</span>
-                        <h6>Geethajali</h6>
-                        <p>Abiramapuram</p>
-                    </div>
-                    <div class="single-item">
-                        <span class="count-text">02</span>
-                        <h6>Poornima</h6>
-                        <p>Mandaveli</p>
-                    </div>
-                    <div class="single-item">
-                        <span class="count-text">03</span>
-                        <h6>Tejas</h6>
-                        <p>Madipakkam</p>
-                    </div>
-                    <div class="single-item">
-                        <span class="count-text">04</span>
-                        <h6>Rajan Bungalow</h6>
-                        <p>Uthandi</p>
-                    </div>
-                    <div class="single-item">
-                        <span class="count-text">01</span>
-                        <h6>Apex</h6>
-                        <p>San Diego, California</p>
-                    </div>
-                    <div class="single-item">
-                        <span class="count-text">02</span>
-                        <h6>Minimal</h6>
-                        <p>San Diego, California</p>
-                    </div>
-                    <div class="single-item">
-                        <span class="count-text">03</span>
-                        <h6>Luxury</h6>
-                        <p>San Diego, California</p>
-                    </div>
-                    <div class="single-item">
-                        <span class="count-text">04</span>
-                        <h6>Delux</h6>
-                        <p>San Diego, California</p>
-                    </div>
-                    <div class="single-item">
-                        <span class="count-text">01</span>
-                        <h6>Apex</h6>
-                        <p>San Diego, California</p>
-                    </div>
-                    <div class="single-item">
-                        <span class="count-text">02</span>
-                        <h6>Minimal</h6>
-                        <p>San Diego, California</p>
-                    </div>
-                    <div class="single-item">
-                        <span class="count-text">03</span>
-                        <h6>Luxury</h6>
-                        <p>San Diego, California</p>
-                    </div>
-                    <div class="single-item">
-                        <span class="count-text">04</span>
-                        <h6>Delux</h6>
-                        <p>San Diego, California</p>
-                    </div>
-                </div>
-            </div>
-            
-        </section>
-        <!-- banner-section end -->
-
-
-        <!-- about-section -->
-        <section class="about-section">
-            <div class="line-shape">
-                <div class="line line-1"></div>
-                <div class="line line-2"></div>
-                <div class="line line-3"></div>
-                <div class="line line-4"></div>
-            </div>
-            <div class="large-container">
-                <div class="row align-items-center clearfix">
-                    <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                        <div data-animation-box class="image-box p_relative d_block">
-                            <figure data-animation-text class="overlay-anim-white-bg image p_relative d_block" data-animation="overlay-animation"><img src="assets/images/About/About Page - 619 x 786.jpg" alt=""></figure>
-                            <div class="text-inner">                            
-                                 <h6>Poornima</h6>
-                                <p>Mandaveli , Chennai</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 content-column">
-                        <div class="content-box p_relative mr_50">
-                            <div class="sec-title">
-                                <span class="subb-title">GET TO KNOW</span>
-                                <h2>Your Trusted Construction <br />Company</h2>
-                            </div>
-                            <div class="text">
-                                <p>With over two decades of professional experience in Construction, Interior designing and Architecture, we predominantly recognise quality and safety as an integral part of our business. We signify our commitment to continuously provide a high standard of service to our customers in all aspects such as cost, efficiency and quality. We have constructed residential and commercial projects in Chennai and other parts of Tamilnadu.</p>
-                            </div>
-                            <div class="author-box p_relative d_block">
-                                <div class="quote-box"><img src="assets/images/icons/icon-1.svg" alt=""></div>
-                                <div class="inner">
-                                    <figure class="author-thumb"><img src="assets/images/icons/Avatar Icon.png" alt=""></figure>
-                                    <p>“ Our vision is to be the foremost leader in the construction industry, recognized for our unwavering commitment to quality, innovation, and sustainability. “</p>
-                                    <div class="designation">CEO - ARUL MURUGAN </div>
+                                        </li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li class="dropdown"><a href="service.html">Services</a>
+                                            
+                                        </li>
+                                        <li class="dropdown"><a href="project.html">Projects</a>
+                                            
+                                        </li>
+                                        <li class="dropdown"><a href="team.html">Our Team</a>
+                                        
+                                        </li>
+                                                
+                                        </li>
+                                            
+                                        <li><a href="contact.html">Contact</a></li> 
+                                    </ul>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- about-section end -->
-
-
-        <!-- service-section -->
-        <section class="service-section centred">
-            <div class="line-shape">
-                <div class="line line-1"></div>
-                <div class="line line-2"></div>
-                <div class="line line-3"></div>
-                <div class="line line-4"></div>
-            </div>
-            <div class="large-container">
-                <div class="row clearfix">
-                    <div class="col-lg-3 col-md-6 col-sm-12 service-block">
-                        <div class="service-block-one wow slideInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <a href="./jointdevelopment.html" class="inner-box">
-                                <div class="icon-box"><img src="assets/images/icons-final/Joint Development.png" alt=""></div>
-                                <h4>Joint Development</h4>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 service-block">
-                        <div class="service-block-one wow slideInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <a href="./constructioncontract.html" class="inner-box">
-                                <div class="icon-box"><img src="assets/images/icons-final/Construction Contract.png" alt=""></div>
-                                <h4>Construction Contract</h4>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 service-block">
-                        <div class="service-block-one wow slideInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
-                            <a href="interior.html" class="inner-box">
-                                <div class="icon-box"><img src="assets/images/icons-final/Interior.png" alt=""></div>
-                                <h4>Interior</h4>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 service-block">
-                        <div class="service-block-one wow slideInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <a href="architecture.html" class="inner-box">
-                                <div class="icon-box"><img src="assets/images/icons-final/Architecture.png" alt=""></div>
-                                <h4>Architecture</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- service-section end -->
-
-
-        <!-- video-section -->
-        <section class="video-section">
-            <div class="line-shape">
-                <div class="line line-1"></div>
-                <div class="line line-2"></div>
-                <div class="line line-3"></div>
-                <div class="line line-4"></div>
-            </div>
-            <div class="large-container">
-                <div class="single-item-carousel owl-carousel owl-theme owl-nav-none">                             
-                    
-                    <div class="inner-box" style="background-image: url(assets/images/background/hmvid.jpg);">
-                        <div class="content-box">
-                            <div class="text">
-                                <h2>PALACIO <span></span></h2>
-                                <h4 style="color: white;"><i class="far fa-map-marker-alt" style="color: white;"></i>Thiruvanmiyur</h4>
-                            </div>
-                            <div class="video-btn">
-                                <a href="https://youtu.be/uJQVNYc-_Bs?si=ygp0_FfIFqazyCP4&amp;t=120s" class="lightbox-image" data-caption=""><i class="icon-13"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- video-section end -->
-
-
-        <!-- project-section -->
-        <section class="project-section">
-            <div class="line-shape">
-                <div class="line line-1"></div>
-                <div class="line line-2"></div>
-                <div class="line line-3"></div>
-                <div class="line line-4"></div>
-            </div>
-            <div class="large-container">
-                <div class="sec-title">
-                    <span class="subb-title">Portfolio</span>
-                    <h2>Our Completed <span>  <br />Projects</span></h2>
-                </div>
-                <div class="carousel-content">
-                    <div class="five-item-carousel owl-carousel owl-theme owl-dots-none">
-                        <div class="project-block-one">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="assets/images/buildings/James Court Apartment Project.jpg" alt=""></figure>
-                                <div class="content-box">
-                                    <div class="text">
-                                        <h2><a href="james.html">JAMES COURT</a></h2>
-                                        <p><i class="far fa-map-marker-alt"></i>Madipakkam</p>
-                                        <span class="big-text">01</span>
-                                    </div>
-                                    <div class="link">
-                                        <a href="project-details.html"><i class="icon-7"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-block-one">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="assets/images/buildings/Palacio Apartment Project.jpg" alt=""></figure>
-                                <div class="content-box">
-                                    <div class="text">
-                                        <h2><a href="palacio.html">PALACIO  <br /></a></h2>
-                                        <p><i class="far fa-map-marker-alt"></i> Thiruvanmiyur</p>
-                                        <span class="big-text">02</span>
-                                    </div>
-                                    <div class="link">
-                                        <a href="project-details.html"><i class="icon-7"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-block-one">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="assets/images/buildings/Meenalochana Apartment Project.jpg" alt=""></figure>
-                                <div class="content-box">
-                                    <div class="text">
-                                        <h2><a href="meenalochana.html">MEENALOCHANA   </a></h2>
-                                        <p><i class="far fa-map-marker-alt"></i>Pallikaranai</p>
-                                        <span class="big-text">03</span>
-                                    </div>
-                                    <div class="link">
-                                        <a href="project-details.html"><i class="icon-7"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-block-one">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="assets/images/buildings/Vijayasree Apartment Project.jpg" alt=""></figure>
-                                <div class="content-box">
-                                    <div class="text">
-                                        <h2><a href="vijayasree.html">VIJAYASREE  </a></h2>
-                                        <p><i class="far fa-map-marker-alt"></i>Velachery</p>
-                                        <span class="big-text">04</span>
-                                    </div>
-                                    <div class="link">
-                                        <a href="project-details.html"><i class="icon-7"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                            </nav>
+                            <div class="menu-right-content">
                         
+                                <div class="nav-btn nav-toggler navSidebar-button">
+                                    <i class="icon-2"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="more-btn centred">
-                    <a href="project.html" class="theme-btn btn-one">View All Projects</a>
+
+                <!--sticky Header-->
+                <div class="sticky-header">
+                    <div class="outer-box">
+                        <div class="logo-box">
+                            <figure class="logo"><a href="index.html"><img src="assets/images/logo/Sri Jaishanthi - Logo -400 x 400 px - transparent.png" alt=""></a></figure>
+                        </div>
+                        <div class="menu-area clearfix">
+                            <nav class="main-menu clearfix">
+                                <!--Keep This Empty / Menu will come through Javascript-->
+                            </nav>
+                            
+                                <div class="nav-btn nav-toggler navSidebar-button">
+                                    <i class="icon-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <!-- project-section end -->
+            </header>
+            <!-- main-header end -->
+
+            <!-- Mobile Menu  -->
+            <div class="mobile-menu">
+                <div class="menu-backdrop"></div>
+                <div class="close-btn"><i class="fas fa-times"></i></div>
+                
+                <nav class="menu-box">
+                    <div class="menu-outer" style="color: red;"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+                
+                    
+                </nav>
+            </div><!-- End Mobile Menu -->
 
 
-        
-
-
-       
-
-        <!-- main-footer -->
-        <footer class="main-footer">
-            <div class="bg-layer" style="background-image: url(assets/images/Sri\ Jaishanthi\ -\ Footer.jpg);"></div>
-
-            <div class="large-container">
-                <div class="sec-title centred">
-                    <span class="subb-title">Contact Us</span>
-                    <h2>Do you need any help? <br />Send Message.</h2>
+            <!-- banner-section -->
+            <section class="banner-section centred">
+                <div class="line-shape">
+                    <div class="line line-3"></div>
+                    <div class="line line-4"></div>
                 </div>
-                <div class="widget-section">
+                <div class="banner-carousel owl-carousel owl-theme owl-dots-none" id="sync1">
+                    <div class="slide-item">
+                        <div class="image-layer" style="background-image:url(assets/images/gome/geethanjali.jpg)"></div>
+                        <div class="auto-container">
+                            <div class="content-box">
+                                <div class="icon-box"><img src="assets/images/logo/Sri Jaishanthi Logo - 74 x110.png" alt=""></div>
+                                <h2>BUILDING THE BETTER, <br /><span>Turning Ideas into Concrete Reality</span> </h2>
+                                <div class="btn-box">
+                                    <a href="geethanjali.html" class="theme-btn btn-one">View Our Projects</a>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="image-layer" style="background-image:url(assets/images/gome/Poornima.jpg)"></div>
+                        <div class="auto-container">
+                            <div class="content-box">
+                                <div class="icon-box"><img src="assets/images/logo/Sri Jaishanthi Logo - 74 x110.png" alt=""></div>
+                                <h2>BUILDING THE BETTER, <br /><span>Turning Ideas into Concrete Reality</span> </h2>
+                                <div class="btn-box">
+                                    <a href="poornima.html" class="theme-btn btn-one">View Our Projects</a>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="image-layer" style="background-image:url(assets/images/gome/Tejas.jpg)"></div>
+                        <div class="auto-container">
+                            <div class="content-box">
+                                <div class="icon-box"><img src="assets/images/logo/Sri Jaishanthi Logo - 74 x110.png" alt=""></div>
+                                <h2>BUILDING THE BETTER, <br /><span>Turning Ideas into Concrete Reality</span> </h2>
+                                <div class="btn-box">
+                                    <a href="tejas.html" class="theme-btn btn-one">View Our Projects</a>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="image-layer" style="background-image:url(assets/images/gome/Rajan\ Bunglaw.jpg)"></div>
+                        <div class="auto-container">
+                            <div class="content-box">
+                                <div class="icon-box"><img src="assets/images/logo/Sri Jaishanthi Logo - 74 x110.png" alt=""></div>
+                                <h2>BUILDING THE BETTER, <br /><span>Turning Ideas into Concrete Reality</span> </h2>
+                                <div class="btn-box">
+                                    <a href="rajan.html" class="theme-btn btn-one">View Our Projects</a>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+
+                <div class="banner-thumb-inner clearfix">
+                    <div class="owl-carousel owl-theme owl-dots-none owl-nav-none" id="sync2">
+                        <div class="single-item">
+                            <span class="count-text">01</span>
+                            <h6>Geethajali</h6>
+                            <p>Abiramapuram</p>
+                        </div>
+                        <div class="single-item">
+                            <span class="count-text">02</span>
+                            <h6>Poornima</h6>
+                            <p>Mandaveli</p>
+                        </div>
+                        <div class="single-item">
+                            <span class="count-text">03</span>
+                            <h6>Tejas</h6>
+                            <p>Madipakkam</p>
+                        </div>
+                        <div class="single-item">
+                            <span class="count-text">04</span>
+                            <h6>Rajan Bungalow</h6>
+                            <p>Uthandi</p>
+                        </div>
+                        <div class="single-item">
+                            <span class="count-text">01</span>
+                            <h6>Apex</h6>
+                            <p>San Diego, California</p>
+                        </div>
+                        <div class="single-item">
+                            <span class="count-text">02</span>
+                            <h6>Minimal</h6>
+                            <p>San Diego, California</p>
+                        </div>
+                        <div class="single-item">
+                            <span class="count-text">03</span>
+                            <h6>Luxury</h6>
+                            <p>San Diego, California</p>
+                        </div>
+                        <div class="single-item">
+                            <span class="count-text">04</span>
+                            <h6>Delux</h6>
+                            <p>San Diego, California</p>
+                        </div>
+                        <div class="single-item">
+                            <span class="count-text">01</span>
+                            <h6>Apex</h6>
+                            <p>San Diego, California</p>
+                        </div>
+                        <div class="single-item">
+                            <span class="count-text">02</span>
+                            <h6>Minimal</h6>
+                            <p>San Diego, California</p>
+                        </div>
+                        <div class="single-item">
+                            <span class="count-text">03</span>
+                            <h6>Luxury</h6>
+                            <p>San Diego, California</p>
+                        </div>
+                        <div class="single-item">
+                            <span class="count-text">04</span>
+                            <h6>Delux</h6>
+                            <p>San Diego, California</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+            <!-- banner-section end -->
+
+
+            <!-- about-section -->
+            <section class="about-section">
+                <div class="line-shape">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                    <div class="line line-4"></div>
+                </div>
+                <div class="large-container">
+                    <div class="row align-items-center clearfix">
+                        <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                            <div data-animation-box class="image-box p_relative d_block">
+                                <figure data-animation-text class="overlay-anim-white-bg image p_relative d_block" data-animation="overlay-animation"><img src="assets/images/About/About Page - 619 x 786.jpg" alt=""></figure>
+                                <div class="text-inner">                            
+                                    <h6>Poornima</h6>
+                                    <p>Mandaveli , Chennai</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                            <div class="content-box p_relative mr_50">
+                                <div class="sec-title">
+                                    <span class="subb-title">GET TO KNOW</span>
+                                    <h2>Your Trusted Construction <br />Company</h2>
+                                </div>
+                                <div class="text">
+                                    <p>With over two decades of professional experience in Construction, Interior designing and Architecture, we predominantly recognise quality and safety as an integral part of our business. We signify our commitment to continuously provide a high standard of service to our customers in all aspects such as cost, efficiency and quality. We have constructed residential and commercial projects in Chennai and other parts of Tamilnadu.</p>
+                                </div>
+                                <div class="author-box p_relative d_block">
+                                    <div class="quote-box"><img src="assets/images/icons/icon-1.svg" alt=""></div>
+                                    <div class="inner">
+                                        <figure class="author-thumb"><img src="assets/images/icons/Avatar Icon.png" alt=""></figure>
+                                        <p>“ Our vision is to be the foremost leader in the construction industry, recognized for our unwavering commitment to quality, innovation, and sustainability. “</p>
+                                        <div class="designation">CEO - ARUL MURUGAN </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- about-section end -->
+
+
+            <!-- service-section -->
+            <section class="service-section centred">
+                <div class="line-shape">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                    <div class="line line-4"></div>
+                </div>
+                <div class="large-container">
                     <div class="row clearfix">
-                        <div class="col-lg-5 col-md-12 col-sm-12 footer-column">
-                            <div class="contact-widget footer-widget">
-                                <div class="widget-title">
-                                    <h3>Office Info</h3>
+                        <div class="col-lg-3 col-md-6 col-sm-12 service-block">
+                            <div class="service-block-one wow slideInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <a href="./jointdevelopment.html" class="inner-box">
+                                    <div class="icon-box"><img src="assets/images/icons-final/Joint Development.png" alt=""></div>
+                                    <h4>Joint Development</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 service-block">
+                            <div class="service-block-one wow slideInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                <a href="./constructioncontract.html" class="inner-box">
+                                    <div class="icon-box"><img src="assets/images/icons-final/Construction Contract.png" alt=""></div>
+                                    <h4>Construction Contract</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 service-block">
+                            <div class="service-block-one wow slideInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
+                                <a href="interior.html" class="inner-box">
+                                    <div class="icon-box"><img src="assets/images/icons-final/Interior.png" alt=""></div>
+                                    <h4>Interior</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 service-block">
+                            <div class="service-block-one wow slideInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                                <a href="architecture.html" class="inner-box">
+                                    <div class="icon-box"><img src="assets/images/icons-final/Architecture.png" alt=""></div>
+                                    <h4>Architecture</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- service-section end -->
+
+
+            <!-- video-section -->
+            <section class="video-section">
+                <div class="line-shape">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                    <div class="line line-4"></div>
+                </div>
+                <div class="large-container">
+                    <div class="single-item-carousel owl-carousel owl-theme owl-nav-none">                             
+                        
+                        <div class="inner-box" style="background-image: url(assets/images/background/hmvid.jpg);">
+                            <div class="content-box">
+                                <div class="text">
+                                    <h2>PALACIO <span></span></h2>
+                                    <h4 style="color: white;"><i class="far fa-map-marker-alt" style="color: white;"></i>Thiruvanmiyur</h4>
                                 </div>
-                                <div class="widget-content">
-                                    <ul class="info-list clearfix">
-                                        <li><i class="icon-17"></i><a href="tel:88123456987231"> +91 8754466165<br>
-                                            +91 9841269172 <br>
-                                            044 35688826 <br>
-                                             </a></li>
-                                        <li><i class="icon-18"></i><a href="mailto:info@envato.com">info@srijaishanthi.com</a></li>
-                                        <li><i class="far fa-map-marker-alt"></i><a> G1, Sarvaam Flats,No.76, 
-                                            2nd Main Road, VGP Layout,
-                                            Palavakkam, Chennai - 600041 </a></li>
-                                    </ul>
+                                <div class="video-btn">
+                                    <a href="https://youtu.be/uJQVNYc-_Bs?si=ygp0_FfIFqazyCP4&amp;t=120s" class="lightbox-image" data-caption=""><i class="icon-13"></i></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-6 col-md-12 offset-xl-3 footer-column">
-                            <div class="subscribe-widget footer-widget">
-                                <div class="widget-title">
-                                    <h3>Newsletter</h3>
-                                </div>
-                                <div class="widget-content">
-                                    <form action="contact.html" method="post">
-                                        <div class="form-group">
-                                            <input type="email" name="email" placeholder="Email Address" required="">
-                                            <button type="submit">Send</button>
+                    </div>
+                </div>
+            </section>
+            <!-- video-section end -->
+
+
+            <!-- project-section -->
+            <section class="project-section">
+                <div class="line-shape">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                    <div class="line line-4"></div>
+                </div>
+                <div class="large-container">
+                    <div class="sec-title">
+                        <span class="subb-title">Portfolio</span>
+                        <h2>Our Completed <span>  <br />Projects</span></h2>
+                    </div>
+                    <div class="carousel-content">
+                        <div class="five-item-carousel owl-carousel owl-theme owl-dots-none">
+                            <div class="project-block-one">
+                                <div class="inner-box">
+                                    <figure class="image-box"><img src="assets/images/buildings/James Court Apartment Project.jpg" alt=""></figure>
+                                    <div class="content-box">
+                                        <div class="text">
+                                            <h2><a href="james.html">JAMES COURT</a></h2>
+                                            <p><i class="far fa-map-marker-alt"></i>Madipakkam</p>
+                                            <span class="big-text">01</span>
                                         </div>
-                                    </form>
-                                    <ul class="social-links clearfix">
-                                        <li><h4>Social Network :</h4></li>
-                                        <li><a href="index.html"><i class="icon-3"></i></a></li>
-                                        <li><a href="https://www.instagram.com/srijaishanthi?igsh=YXk3MTR4cTFib3Zo&utm_source=qr"><i class="icon-4"></i></a></li>
-                                        <li><a href="index.html"><i class="icon-5"></i></a></li>
-                                        <li><a href="https://youtube.com/@SriJaishanthiProjects"><span class="fab fa-youtube"></span></a></li>
+                                        <div class="link">
+                                            <a href="project-details.html"><i class="icon-7"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-block-one">
+                                <div class="inner-box">
+                                    <figure class="image-box"><img src="assets/images/buildings/Palacio Apartment Project.jpg" alt=""></figure>
+                                    <div class="content-box">
+                                        <div class="text">
+                                            <h2><a href="palacio.html">PALACIO  <br /></a></h2>
+                                            <p><i class="far fa-map-marker-alt"></i> Thiruvanmiyur</p>
+                                            <span class="big-text">02</span>
+                                        </div>
+                                        <div class="link">
+                                            <a href="project-details.html"><i class="icon-7"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-block-one">
+                                <div class="inner-box">
+                                    <figure class="image-box"><img src="assets/images/buildings/Meenalochana Apartment Project.jpg" alt=""></figure>
+                                    <div class="content-box">
+                                        <div class="text">
+                                            <h2><a href="meenalochana.html">MEENALOCHANA   </a></h2>
+                                            <p><i class="far fa-map-marker-alt"></i>Pallikaranai</p>
+                                            <span class="big-text">03</span>
+                                        </div>
+                                        <div class="link">
+                                            <a href="project-details.html"><i class="icon-7"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-block-one">
+                                <div class="inner-box">
+                                    <figure class="image-box"><img src="assets/images/buildings/Vijayasree Apartment Project.jpg" alt=""></figure>
+                                    <div class="content-box">
+                                        <div class="text">
+                                            <h2><a href="vijayasree.html">VIJAYASREE  </a></h2>
+                                            <p><i class="far fa-map-marker-alt"></i>Velachery</p>
+                                            <span class="big-text">04</span>
+                                        </div>
+                                        <div class="link">
+                                            <a href="project-details.html"><i class="icon-7"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="more-btn centred">
+                        <a href="project.html" class="theme-btn btn-one">View All Projects</a>
+                    </div>
+                </div>
+            </section>
+            <!-- project-section end -->
 
-                                    </ul>
+
+            
+
+
+        
+
+            <!-- main-footer -->
+            <footer class="main-footer">
+                <div class="bg-layer" style="background-image: url(assets/images/Sri\ Jaishanthi\ -\ Footer.jpg);"></div>
+
+                <div class="large-container">
+                    <div class="sec-title centred">
+                        <span class="subb-title">Contact Us</span>
+                        <h2>Do you need any help? <br />Send Message.</h2>
+                    </div>
+                    <div class="widget-section">
+                        <div class="row clearfix">
+                            <div class="col-lg-5 col-md-12 col-sm-12 footer-column">
+                                <div class="contact-widget footer-widget">
+                                    <div class="widget-title">
+                                        <h3>Office Info</h3>
+                                    </div>
+                                    <div class="widget-content">
+                                        <ul class="info-list clearfix">
+                                            <li><i class="icon-17"></i><a href="tel:88123456987231"> +91 8754466165<br>
+                                                +91 9841269172 <br>
+                                                044 35688826 <br>
+                                                </a></li>
+                                            <li><i class="icon-18"></i><a href="mailto:info@envato.com">info@srijaishanthi.com</a></li>
+                                            <li><i class="far fa-map-marker-alt"></i><a> G1, Sarvaam Flats,No.76, 
+                                                2nd Main Road, VGP Layout,
+                                                Palavakkam, Chennai - 600041 </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-12 offset-xl-3 footer-column">
+                                <div class="subscribe-widget footer-widget">
+                                    <div class="widget-title">
+                                        <h3>Newsletter</h3>
+                                    </div>
+                                    <div class="widget-content">
+                                        <form action="contact.html" method="post">
+                                            <div class="form-group">
+                                                <input type="email" name="email" placeholder="Email Address" required="">
+                                                <button type="submit">Send</button>
+                                            </div>
+                                        </form>
+                                        <ul class="social-links clearfix">
+                                            <li><h4>Social Network :</h4></li>
+                                            <li><a href="index.html"><i class="icon-3"></i></a></li>
+                                            <li><a href="https://www.instagram.com/srijaishanthi?igsh=YXk3MTR4cTFib3Zo&utm_source=qr"><i class="icon-4"></i></a></li>
+                                            <li><a href="index.html"><i class="icon-5"></i></a></li>
+                                            <li><a href="https://youtube.com/@SriJaishanthiProjects"><span class="fab fa-youtube"></span></a></li>
+
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="footer-bottom centred">
+                        <div class="copyright">
+                            <h4>Crafted by   Esmato - 2024</h4>
+                        </div>
+                    </div>
                 </div>
-                <div class="footer-bottom centred">
-                    <div class="copyright">
-                        <h4>Crafted by   Esmato - 2024</h4>
+            </footer>
+            <!-- main-footer end -->
+
+
+
+            <!--Scroll to top-->
+            <div class="scroll-to-top">
+                <div>
+                    <div class="scroll-top-inner">
+                        <div class="scroll-bar">
+                            <div class="bar-inner"></div>
+                        </div>
+                        <div class="scroll-bar-text">Go To Top</div>
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- main-footer end -->
-
-
-
-        <!--Scroll to top-->
-        <div class="scroll-to-top">
-            <div>
-                <div class="scroll-top-inner">
-                    <div class="scroll-bar">
-                        <div class="bar-inner"></div>
-                    </div>
-                    <div class="scroll-bar-text">Go To Top</div>
-                </div>
-            </div>
+            <!-- Scroll to top end -->
+            
         </div>
-        <!-- Scroll to top end -->
-        
-    </div>
 
 
-    <!-- jequery plugins -->
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/owl.js"></script>
-    <script src="assets/js/wow.js"></script>
-    <script src="assets/js/validation.js"></script>
-    <script src="assets/js/jquery.fancybox.js"></script>
-    <script src="assets/js/appear.js"></script>
-    <script src="assets/js/scrollbar.js"></script>
-    <script src="assets/js/nav-tool.js"></script>
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/jquery.lettering.min.js"></script>
-    <script src="assets/js/jquery.circleType.js"></script>
+        <!-- jequery plugins -->
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/owl.js"></script>
+        <script src="assets/js/wow.js"></script>
+        <script src="assets/js/validation.js"></script>
+        <script src="assets/js/jquery.fancybox.js"></script>
+        <script src="assets/js/appear.js"></script>
+        <script src="assets/js/scrollbar.js"></script>
+        <script src="assets/js/nav-tool.js"></script>
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/jquery.lettering.min.js"></script>
+        <script src="assets/js/jquery.circleType.js"></script>
 
-    <!-- main-js -->
-    <script src="assets/js/script.js"></script>
+        <!-- main-js -->
+        <script src="assets/js/script.js"></script>
 
-</body><!-- End of .page_wrapper -->
-</html>
+    </body><!-- End of .page_wrapper -->
+    </html>
