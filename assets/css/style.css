@@ -263,7 +263,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .handle-preloader .animation-preloader .txt-loading .letters-loading{
-  font-family: "bankgothic bt it";
+  font-family: 'BankGothic it BT', sans-serif;
   font-weight: 400;
   letter-spacing: 15px;
   display: inline-block;

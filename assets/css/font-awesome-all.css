@@ -6210,3 +6210,7 @@ readers do not read off random characters that represent icons */
     font-display: auto;
     src: url("../fonts/BNKGOTHL.TTF");
   }  
+
+
+
+  @import url('https://fonts.cdnfonts.com/css/bankgothic-md-bt');
