@@ -41,6 +41,7 @@
 
 
 **********************************************/
+@import url('https://fonts.cdnfonts.com/css/bankgothic-md-bt');
 
 
 
@@ -263,8 +264,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .handle-preloader .animation-preloader .txt-loading .letters-loading{
-  font-family: 'BankGothic it BT', sans-serif;
-  font-weight: 400;
+  font-family: "BankGothic Md BT Medium";
+    font-weight: 400;
   letter-spacing: 15px;
   display: inline-block;
   position: relative;

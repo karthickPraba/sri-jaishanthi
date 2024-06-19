@@ -6214,3 +6214,18 @@ readers do not read off random characters that represent icons */
 
 
   @import url('https://fonts.cdnfonts.com/css/bankgothic-md-bt');
+
+
+
+  @import url(https://db.onlinewebfonts.com/c/adfd298e421945768d7bf13da3ee8a45?family=BankGothic+Md+BT+Medium);
+
+
+  @font-face {
+    font-family: "BankGothic Md BT Medium";
+    src: url("https://db.onlinewebfonts.com/t/adfd298e421945768d7bf13da3ee8a45.eot");
+    src: url("https://db.onlinewebfonts.com/t/adfd298e421945768d7bf13da3ee8a45.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/adfd298e421945768d7bf13da3ee8a45.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/adfd298e421945768d7bf13da3ee8a45.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/adfd298e421945768d7bf13da3ee8a45.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/adfd298e421945768d7bf13da3ee8a45.svg#BankGothic Md BT Medium")format("svg");
+}
