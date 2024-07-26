@@ -5323,10 +5323,11 @@ color: #CA282E;
 
 .service-details-content .text p{
   display: block;
-  font-size: 12px;
-  line-height: 22px;
-  color: #999;
+  font-size: 18px;
+  line-height: 35px;
+  color: #000;
   margin-bottom: 32px;
+  font-weight: 400;
 }
 
 .service-details-content .text p:last-child{
